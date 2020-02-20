@@ -14,6 +14,10 @@
 		8E67B12E23FE7E2700FBE2A3 /* CoreDataStream.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E67B12C23FE7E2700FBE2A3 /* CoreDataStream.xcdatamodeld */; };
 		8E67B13023FE7E2900FBE2A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E67B12F23FE7E2900FBE2A3 /* Assets.xcassets */; };
 		8E67B13323FE7E2900FBE2A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E67B13123FE7E2900FBE2A3 /* LaunchScreen.storyboard */; };
+		8E67B14723FE890100FBE2A3 /* Company+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E67B14323FE890100FBE2A3 /* Company+CoreDataClass.swift */; };
+		8E67B14823FE890100FBE2A3 /* Company+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E67B14423FE890100FBE2A3 /* Company+CoreDataProperties.swift */; };
+		8E67B14923FE890100FBE2A3 /* Employee+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E67B14523FE890100FBE2A3 /* Employee+CoreDataClass.swift */; };
+		8E67B14A23FE890100FBE2A3 /* Employee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E67B14623FE890100FBE2A3 /* Employee+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		8E67B12F23FE7E2900FBE2A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E67B13223FE7E2900FBE2A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E67B13423FE7E2900FBE2A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E67B14323FE890100FBE2A3 /* Company+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Company+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8E67B14423FE890100FBE2A3 /* Company+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Company+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8E67B14523FE890100FBE2A3 /* Employee+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8E67B14623FE890100FBE2A3 /* Employee+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 		8E67B12223FE7E2700FBE2A3 /* CoreDataStream */ = {
 			isa = PBXGroup;
 			children = (
+				8E67B14223FE7F7F00FBE2A3 /* CoreData Models */,
 				8E67B12323FE7E2700FBE2A3 /* AppDelegate.swift */,
 				8E67B12523FE7E2700FBE2A3 /* SceneDelegate.swift */,
 				8E67B12723FE7E2700FBE2A3 /* ViewController.swift */,
@@ -65,9 +74,20 @@
 				8E67B12F23FE7E2900FBE2A3 /* Assets.xcassets */,
 				8E67B13123FE7E2900FBE2A3 /* LaunchScreen.storyboard */,
 				8E67B13423FE7E2900FBE2A3 /* Info.plist */,
-				8E67B12C23FE7E2700FBE2A3 /* CoreDataStream.xcdatamodeld */,
 			);
 			path = CoreDataStream;
+			sourceTree = "<group>";
+		};
+		8E67B14223FE7F7F00FBE2A3 /* CoreData Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E67B12C23FE7E2700FBE2A3 /* CoreDataStream.xcdatamodeld */,
+				8E67B14323FE890100FBE2A3 /* Company+CoreDataClass.swift */,
+				8E67B14423FE890100FBE2A3 /* Company+CoreDataProperties.swift */,
+				8E67B14523FE890100FBE2A3 /* Employee+CoreDataClass.swift */,
+				8E67B14623FE890100FBE2A3 /* Employee+CoreDataProperties.swift */,
+			);
+			path = "CoreData Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +163,12 @@
 			files = (
 				8E67B12823FE7E2700FBE2A3 /* ViewController.swift in Sources */,
 				8E67B12423FE7E2700FBE2A3 /* AppDelegate.swift in Sources */,
+				8E67B14823FE890100FBE2A3 /* Company+CoreDataProperties.swift in Sources */,
 				8E67B12E23FE7E2700FBE2A3 /* CoreDataStream.xcdatamodeld in Sources */,
 				8E67B12623FE7E2700FBE2A3 /* SceneDelegate.swift in Sources */,
+				8E67B14A23FE890100FBE2A3 /* Employee+CoreDataProperties.swift in Sources */,
+				8E67B14923FE890100FBE2A3 /* Employee+CoreDataClass.swift in Sources */,
+				8E67B14723FE890100FBE2A3 /* Company+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
