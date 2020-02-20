@@ -1,13 +1,14 @@
 version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
 options: "95eb29f537b7c04c8a772fe5b4cb6a1a"
-build_time: [1582194985, 175284000]
+build_time: [1582211528, 956545000]
 inputs:
   "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/AppDelegate.swift": [1582194985, 119229525]
-  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/CoreData Models/Employee+CoreDataProperties.swift": [1582194939, 682696482]
-  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/CoreData Models/Company+CoreDataClass.swift": [1582194939, 658462447]
-  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/Controllers/DataTableViewController.swift": [1582193414, 564321719]
-  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/CoreData Models/Employee+CoreDataClass.swift": [1582194939, 695705234]
-  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/CoreDataStack/CoreDataStack.swift": !dirty [1582194985, 95416425]
-  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/SceneDelegate.swift": !private [1582188199, 631800354]
+  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/Company+CoreDataClass.swift": [1582211507, 194950748]
+  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/Controllers/DataTableViewController.swift": [1582211428, 460011545]
+  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/Employee+CoreDataClass.swift": [1582211507, 196753443]
+  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/Employee+CoreDataProperties.swift": [1582211507, 197743858]
+  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/CoreDataStack/CoreDataStack.swift": [1582208468, 122313243]
+  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/Company+CoreDataProperties.swift": [1582211528, 890730947]
+  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/SceneDelegate.swift": [1582195582, 102016158]
+  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/CoreDataStack/CoreDataService.swift": [1582209515, 985985126]
   "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/Helpers/EmployeeData.swift": [1582194082, 837253045]
-  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/CoreData Models/Company+CoreDataProperties.swift": [1582194939, 705768335]

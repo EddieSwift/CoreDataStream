@@ -7,34 +7,99 @@
 //
 
 import UIKit
+import CoreData
 
 class DataTableViewController: UITableViewController {
+    
+    let coreDataService = CoreDataService.shared
+    
+    lazy var coreDataStack = CoreDataStack(modelName: "CoreDataStream")
+    
+    var currentCompany: Company?
+
+    private var allEmployees = [Company]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        generateEmployees()
+        
+        print("Hello")
+        
+//        let companyFetch: NSFetchRequest<Company> = Company.fetchRequest()
+//
+//        do {
+//            let results = try coreDataStack.managedContext.fetch(companyFetch)
+//            if results.count > 0 {
+//                // Fido found, use Fido
+//                currentCompany = results.first
+//                print(currentCompany?.name)
+//            }
+
+
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        
+        print("allEmployees.count: \(allEmployees.count)")
     }
+    
+    
+//    override func viewWillAppear(_ animated: Bool) {
+//        super.viewWillAppear(animated)
+//        allEmployees = coreDataService.fetchAllAnswers()
+//    }
     
     // MARK: - Help Methods
     
     private func generateEmployees() {
         
-    }
+        let company = "Apple"
+        let companyFetch: NSFetchRequest<Company> = Company.fetchRequest()
+        companyFetch.predicate = NSPredicate(format: "%K == %@", #keyPath(Company.name), company)
+        
+        do {
+          let results = try coreDataStack.managedContext.fetch(companyFetch)
+          if results.count > 0 {
+            // Fido found, use Fido
+            currentCompany = results.first
+            print(currentCompany!.name!)
+            allEmployees = results
+          } else {
+            // Fido not found, create Fido
+            currentCompany = Company(context: coreDataStack.managedContext)
+            currentCompany?.name = company
+            coreDataStack.saveContext()
+          }
+        } catch let error as NSError {
+          print("Fetch error: \(error) description: \(error.userInfo)")
+        }
+        
+        
+        let employee = Employee(context: coreDataStack.managedContext)
+        employee.firstName = "Richi"
+        employee.lastName = "Richi"
+        
+        if let company = currentCompany,
+          let employees = company.employees?.mutableCopy() as? NSMutableOrderedSet {
+          employees.add(employee)
+            company.employees = employees
+        }
+        
+        coreDataStack.saveContext()
+}
+
 
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
         return 0
     }
 

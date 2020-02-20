@@ -15,11 +15,12 @@
 		8E67B13323FE7E2900FBE2A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E67B13123FE7E2900FBE2A3 /* LaunchScreen.storyboard */; };
 		8E67B14C23FE8A7B00FBE2A3 /* DataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E67B14B23FE8A7B00FBE2A3 /* DataTableViewController.swift */; };
 		8E67B15223FE928500FBE2A3 /* EmployeeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E67B15123FE928500FBE2A3 /* EmployeeData.swift */; };
-		8E67B15723FE976C00FBE2A3 /* Company+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E67B15323FE976B00FBE2A3 /* Company+CoreDataClass.swift */; };
-		8E67B15823FE976C00FBE2A3 /* Company+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E67B15423FE976B00FBE2A3 /* Company+CoreDataProperties.swift */; };
-		8E67B15923FE976C00FBE2A3 /* Employee+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E67B15523FE976B00FBE2A3 /* Employee+CoreDataClass.swift */; };
-		8E67B15A23FE976C00FBE2A3 /* Employee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E67B15623FE976C00FBE2A3 /* Employee+CoreDataProperties.swift */; };
 		8E67B15D23FE987A00FBE2A3 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E67B15C23FE987A00FBE2A3 /* CoreDataStack.swift */; };
+		8E67B15F23FE99C700FBE2A3 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E67B15E23FE99C700FBE2A3 /* CoreDataService.swift */; };
+		8E67B17C23FED93300FBE2A3 /* Company+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E67B17823FED93300FBE2A3 /* Company+CoreDataClass.swift */; };
+		8E67B17D23FED93300FBE2A3 /* Company+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E67B17923FED93300FBE2A3 /* Company+CoreDataProperties.swift */; };
+		8E67B17E23FED93300FBE2A3 /* Employee+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E67B17A23FED93300FBE2A3 /* Employee+CoreDataClass.swift */; };
+		8E67B17F23FED93300FBE2A3 /* Employee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E67B17B23FED93300FBE2A3 /* Employee+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,11 +34,12 @@
 		8E67B13423FE7E2900FBE2A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E67B14B23FE8A7B00FBE2A3 /* DataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewController.swift; sourceTree = "<group>"; };
 		8E67B15123FE928500FBE2A3 /* EmployeeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeData.swift; sourceTree = "<group>"; };
-		8E67B15323FE976B00FBE2A3 /* Company+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Company+CoreDataClass.swift"; sourceTree = "<group>"; };
-		8E67B15423FE976B00FBE2A3 /* Company+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Company+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		8E67B15523FE976B00FBE2A3 /* Employee+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataClass.swift"; sourceTree = "<group>"; };
-		8E67B15623FE976C00FBE2A3 /* Employee+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8E67B15C23FE987A00FBE2A3 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		8E67B15E23FE99C700FBE2A3 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		8E67B17823FED93300FBE2A3 /* Company+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Company+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8E67B17923FED93300FBE2A3 /* Company+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Company+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8E67B17A23FED93300FBE2A3 /* Employee+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8E67B17B23FED93300FBE2A3 /* Employee+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,10 @@
 		8E67B11723FE7E2700FBE2A3 = {
 			isa = PBXGroup;
 			children = (
+				8E67B17823FED93300FBE2A3 /* Company+CoreDataClass.swift */,
+				8E67B17923FED93300FBE2A3 /* Company+CoreDataProperties.swift */,
+				8E67B17A23FED93300FBE2A3 /* Employee+CoreDataClass.swift */,
+				8E67B17B23FED93300FBE2A3 /* Employee+CoreDataProperties.swift */,
 				8E67B12223FE7E2700FBE2A3 /* CoreDataStream */,
 				8E67B12123FE7E2700FBE2A3 /* Products */,
 			);
@@ -88,10 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				8E67B12C23FE7E2700FBE2A3 /* CoreDataStream.xcdatamodeld */,
-				8E67B15323FE976B00FBE2A3 /* Company+CoreDataClass.swift */,
-				8E67B15423FE976B00FBE2A3 /* Company+CoreDataProperties.swift */,
-				8E67B15523FE976B00FBE2A3 /* Employee+CoreDataClass.swift */,
-				8E67B15623FE976C00FBE2A3 /* Employee+CoreDataProperties.swift */,
 			);
 			path = "CoreData Models";
 			sourceTree = "<group>";
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				8E67B15C23FE987A00FBE2A3 /* CoreDataStack.swift */,
+				8E67B15E23FE99C700FBE2A3 /* CoreDataService.swift */,
 			);
 			path = CoreDataStack;
 			sourceTree = "<group>";
@@ -192,15 +195,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E67B12423FE7E2700FBE2A3 /* AppDelegate.swift in Sources */,
-				8E67B15A23FE976C00FBE2A3 /* Employee+CoreDataProperties.swift in Sources */,
-				8E67B15723FE976C00FBE2A3 /* Company+CoreDataClass.swift in Sources */,
+				8E67B17C23FED93300FBE2A3 /* Company+CoreDataClass.swift in Sources */,
 				8E67B14C23FE8A7B00FBE2A3 /* DataTableViewController.swift in Sources */,
-				8E67B15923FE976C00FBE2A3 /* Employee+CoreDataClass.swift in Sources */,
+				8E67B17E23FED93300FBE2A3 /* Employee+CoreDataClass.swift in Sources */,
+				8E67B17F23FED93300FBE2A3 /* Employee+CoreDataProperties.swift in Sources */,
 				8E67B15D23FE987A00FBE2A3 /* CoreDataStack.swift in Sources */,
 				8E67B12E23FE7E2700FBE2A3 /* CoreDataStream.xcdatamodeld in Sources */,
+				8E67B17D23FED93300FBE2A3 /* Company+CoreDataProperties.swift in Sources */,
 				8E67B12623FE7E2700FBE2A3 /* SceneDelegate.swift in Sources */,
+				8E67B15F23FE99C700FBE2A3 /* CoreDataService.swift in Sources */,
 				8E67B15223FE928500FBE2A3 /* EmployeeData.swift in Sources */,
-				8E67B15823FE976C00FBE2A3 /* Company+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

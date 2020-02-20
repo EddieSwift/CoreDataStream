@@ -225,16 +225,17 @@ SWIFT_CLASS("_TtC14CoreDataStream7Company")
 @class NSSet;
 
 @interface Company (SWIFT_EXTENSION(CoreDataStream))
-- (void)addRelationshipObject:(Employee * _Nonnull)value;
-- (void)removeRelationshipObject:(Employee * _Nonnull)value;
-- (void)addRelationship:(NSSet * _Nonnull)values;
-- (void)removeRelationship:(NSSet * _Nonnull)values;
+- (void)addEmployeesObject:(Employee * _Nonnull)value;
+- (void)removeEmployeesObject:(Employee * _Nonnull)value;
+- (void)addEmployees:(NSSet * _Nonnull)values;
+- (void)removeEmployees:(NSSet * _Nonnull)values;
 @end
 
+@class NSOrderedSet;
 
 @interface Company (SWIFT_EXTENSION(CoreDataStream))
 @property (nonatomic, copy) NSString * _Nullable name;
-@property (nonatomic, strong) NSSet * _Nullable relationship;
+@property (nonatomic, strong) NSOrderedSet * _Nullable employees;
 @end
 
 @class UITableView;
@@ -262,7 +263,7 @@ SWIFT_CLASS("_TtC14CoreDataStream8Employee")
 @property (nonatomic, copy) NSString * _Nullable firstName;
 @property (nonatomic, copy) NSString * _Nullable lastName;
 @property (nonatomic) int16_t age;
-@property (nonatomic, strong) Company * _Nullable relationship;
+@property (nonatomic, strong) Company * _Nullable company;
 @end
 
 @class UIWindow;

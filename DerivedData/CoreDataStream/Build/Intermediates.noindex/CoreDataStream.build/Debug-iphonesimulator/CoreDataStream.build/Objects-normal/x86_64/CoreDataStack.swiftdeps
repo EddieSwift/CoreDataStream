@@ -1,33 +1,48 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "persistentContainer"
-- "saveContext"
+- "CoreDataStack"
 provides-nominal:
+- "14CoreDataStream0aB5StackC"
 provides-member:
+- ["14CoreDataStream0aB5StackC", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "AssignmentPrecedence"
 - "CastingPrecedence"
+- "CoreDataStack"
 - "FloatLiteralType"
 - "IntegerLiteralType"
 - "NSError"
+- "NSManagedObjectContext"
 - "NSPersistentContainer"
+- "String"
 - "StringLiteralType"
-- "fatalError"
-- "persistentContainer"
-- "saveContext"
+- "print"
 depends-member:
 - !private ["s7CVarArgP", "hasChanges"]
 - ["s7CVarArgP", "init"]
 - ["s7CVarArgP", "loadPersistentStores"]
 - !private ["s7CVarArgP", "save"]
 - ["s7CVarArgP", "userInfo"]
-- !private ["s7CVarArgP", "viewContext"]
+- ["s7CVarArgP", "viewContext"]
+- !private ["14CoreDataStream0aB5StackC", "$__lazy_storage_$_managedContext"]
+- !private ["14CoreDataStream0aB5StackC", "$__lazy_storage_$_storeContainer"]
+- ["14CoreDataStream0aB5StackC", "NSError"]
+- ["14CoreDataStream0aB5StackC", "NSManagedObjectContext"]
+- ["14CoreDataStream0aB5StackC", "NSPersistentContainer"]
+- ["14CoreDataStream0aB5StackC", "String"]
+- ["14CoreDataStream0aB5StackC", "init"]
+- ["14CoreDataStream0aB5StackC", "managedContext"]
+- ["14CoreDataStream0aB5StackC", "modelName"]
+- ["14CoreDataStream0aB5StackC", "print"]
+- ["14CoreDataStream0aB5StackC", "saveContext"]
+- ["14CoreDataStream0aB5StackC", "storeContainer"]
 - !private ["s28CustomDebugStringConvertibleP", "hasChanges"]
 - ["s28CustomDebugStringConvertibleP", "init"]
 - ["s28CustomDebugStringConvertibleP", "loadPersistentStores"]
 - !private ["s28CustomDebugStringConvertibleP", "save"]
 - ["s28CustomDebugStringConvertibleP", "userInfo"]
-- !private ["s28CustomDebugStringConvertibleP", "viewContext"]
+- ["s28CustomDebugStringConvertibleP", "viewContext"]
 - ["s23CustomStringConvertibleP", "appendInterpolation"]
 - ["s23CustomStringConvertibleP", "appendLiteral"]
 - !private ["s23CustomStringConvertibleP", "hasChanges"]
@@ -35,7 +50,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", "loadPersistentStores"]
 - !private ["s23CustomStringConvertibleP", "save"]
 - ["s23CustomStringConvertibleP", "userInfo"]
-- !private ["s23CustomStringConvertibleP", "viewContext"]
+- ["s23CustomStringConvertibleP", "viewContext"]
 - ["s26DefaultStringInterpolationV", "appendInterpolation"]
 - ["s26DefaultStringInterpolationV", "appendLiteral"]
 - !private ["SQ", "hasChanges"]
@@ -43,14 +58,14 @@ depends-member:
 - ["SQ", "loadPersistentStores"]
 - !private ["SQ", "save"]
 - ["SQ", "userInfo"]
-- !private ["SQ", "viewContext"]
+- ["SQ", "viewContext"]
 - ["s5ErrorP", "userInfo"]
 - !private ["SH", "hasChanges"]
 - ["SH", "init"]
 - ["SH", "loadPersistentStores"]
 - !private ["SH", "save"]
 - ["SH", "userInfo"]
-- !private ["SH", "viewContext"]
+- ["SH", "viewContext"]
 - !private ["So8NSCodingP", "hasChanges"]
 - !private ["So8NSCodingP", "save"]
 - ["So8NSCodingP", "userInfo"]
@@ -65,16 +80,16 @@ depends-member:
 - ["So8NSObjectC", "loadPersistentStores"]
 - !private ["So8NSObjectC", "save"]
 - ["So8NSObjectC", "userInfo"]
-- !private ["So8NSObjectC", "viewContext"]
+- ["So8NSObjectC", "viewContext"]
 - !private ["So8NSObjectP", "hasChanges"]
 - ["So8NSObjectP", "init"]
 - ["So8NSObjectP", "loadPersistentStores"]
 - !private ["So8NSObjectP", "save"]
 - ["So8NSObjectP", "userInfo"]
-- !private ["So8NSObjectP", "viewContext"]
+- ["So8NSObjectP", "viewContext"]
 - ["So21NSPersistentContainerC", "init"]
 - ["So21NSPersistentContainerC", "loadPersistentStores"]
-- !private ["So21NSPersistentContainerC", "viewContext"]
+- ["So21NSPersistentContainerC", "viewContext"]
 - ["So14NSSecureCodingP", "userInfo"]
 - ["s27StringInterpolationProtocolP", "appendInterpolation"]
 - ["s27StringInterpolationProtocolP", "appendLiteral"]
@@ -85,15 +100,16 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "loadPersistentStores"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "save"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "userInfo"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewContext"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "viewContext"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hasChanges"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "loadPersistentStores"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "save"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "userInfo"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewContext"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewContext"]
 depends-nominal:
 - "s7CVarArgP"
+- "14CoreDataStream0aB5StackC"
 - "s28CustomDebugStringConvertibleP"
 - "s23CustomStringConvertibleP"
 - "s26DefaultStringInterpolationV"
@@ -157,4 +173,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "53c8218752a2a15408270f353b47ec7d"
+interface-hash: "6a4c0d057f51208c84a3086ab8584a0e"

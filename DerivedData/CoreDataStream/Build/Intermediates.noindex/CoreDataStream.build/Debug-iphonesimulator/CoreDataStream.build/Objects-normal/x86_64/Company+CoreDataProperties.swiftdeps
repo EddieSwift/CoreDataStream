@@ -5,20 +5,21 @@ provides-member:
 - ["14CoreDataStream7CompanyC", ""]
 - ["14CoreDataStream7CompanyC", "fetchRequest"]
 - ["14CoreDataStream7CompanyC", "name"]
-- ["14CoreDataStream7CompanyC", "relationship"]
-- ["14CoreDataStream7CompanyC", "addToRelationship"]
-- ["14CoreDataStream7CompanyC", "removeFromRelationship"]
-- ["14CoreDataStream7CompanyC", "addToRelationship"]
-- ["14CoreDataStream7CompanyC", "removeFromRelationship"]
+- ["14CoreDataStream7CompanyC", "employees"]
+- ["14CoreDataStream7CompanyC", "addToEmployees"]
+- ["14CoreDataStream7CompanyC", "removeFromEmployees"]
+- ["14CoreDataStream7CompanyC", "addToEmployees"]
+- ["14CoreDataStream7CompanyC", "removeFromEmployees"]
 provides-dynamic-lookup:
-- "addToRelationship"
+- "addToEmployees"
+- "employees"
 - "name"
-- "relationship"
-- "removeFromRelationship"
+- "removeFromEmployees"
 depends-top-level:
 - "Company"
 - "Employee"
 - "NSFetchRequest"
+- "NSOrderedSet"
 - "NSSet"
 - "String"
 - !private "StringLiteralType"
@@ -28,14 +29,15 @@ depends-member:
 - ["14CoreDataStream7CompanyC", "Company"]
 - ["14CoreDataStream7CompanyC", "Employee"]
 - ["14CoreDataStream7CompanyC", "NSFetchRequest"]
+- ["14CoreDataStream7CompanyC", "NSOrderedSet"]
 - ["14CoreDataStream7CompanyC", "NSSet"]
 - ["14CoreDataStream7CompanyC", "String"]
-- ["14CoreDataStream7CompanyC", "addToRelationship"]
+- ["14CoreDataStream7CompanyC", "addToEmployees"]
 - ["14CoreDataStream7CompanyC", "deinit"]
+- ["14CoreDataStream7CompanyC", "employees"]
 - ["14CoreDataStream7CompanyC", "fetchRequest"]
 - ["14CoreDataStream7CompanyC", "name"]
-- ["14CoreDataStream7CompanyC", "relationship"]
-- ["14CoreDataStream7CompanyC", "removeFromRelationship"]
+- ["14CoreDataStream7CompanyC", "removeFromEmployees"]
 - !private ["s28CustomDebugStringConvertibleP", "NSFetchRequest"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "NSFetchRequest"]
@@ -51,24 +53,26 @@ depends-member:
 - ["So15NSManagedObjectC", "Company"]
 - ["So15NSManagedObjectC", "Employee"]
 - ["So15NSManagedObjectC", "NSFetchRequest"]
+- ["So15NSManagedObjectC", "NSOrderedSet"]
 - ["So15NSManagedObjectC", "NSSet"]
 - ["So15NSManagedObjectC", "String"]
-- ["So15NSManagedObjectC", "addToRelationship"]
+- ["So15NSManagedObjectC", "addToEmployees"]
+- ["So15NSManagedObjectC", "employees"]
 - ["So15NSManagedObjectC", "fetchRequest"]
 - ["So15NSManagedObjectC", "name"]
-- ["So15NSManagedObjectC", "relationship"]
-- ["So15NSManagedObjectC", "removeFromRelationship"]
+- ["So15NSManagedObjectC", "removeFromEmployees"]
 - ["So8NSObjectC", "Company"]
 - ["So8NSObjectC", "Employee"]
 - ["So8NSObjectC", "NSFetchRequest"]
+- ["So8NSObjectC", "NSOrderedSet"]
 - ["So8NSObjectC", "NSSet"]
 - ["So8NSObjectC", "String"]
-- ["So8NSObjectC", "addToRelationship"]
+- ["So8NSObjectC", "addToEmployees"]
+- ["So8NSObjectC", "employees"]
 - ["So8NSObjectC", "fetchRequest"]
 - !private ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "name"]
-- ["So8NSObjectC", "relationship"]
-- ["So8NSObjectC", "removeFromRelationship"]
+- ["So8NSObjectC", "removeFromEmployees"]
 - !private ["So8NSObjectP", "NSFetchRequest"]
 - !private ["So8NSObjectP", "init"]
 - !private ["So24NSPersistentStoreRequestC", "init"]
@@ -139,4 +143,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "8bcbc2ac08e4ff09827da77a5daa1a23"
+interface-hash: "7d47de9c84869ec31734779e6d66782e"

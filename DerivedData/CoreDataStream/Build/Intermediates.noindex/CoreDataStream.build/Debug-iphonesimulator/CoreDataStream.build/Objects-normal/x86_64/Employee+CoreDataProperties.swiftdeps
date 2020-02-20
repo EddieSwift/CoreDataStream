@@ -7,12 +7,12 @@ provides-member:
 - ["14CoreDataStream8EmployeeC", "firstName"]
 - ["14CoreDataStream8EmployeeC", "lastName"]
 - ["14CoreDataStream8EmployeeC", "age"]
-- ["14CoreDataStream8EmployeeC", "relationship"]
+- ["14CoreDataStream8EmployeeC", "company"]
 provides-dynamic-lookup:
 - "age"
+- "company"
 - "firstName"
 - "lastName"
-- "relationship"
 depends-top-level:
 - "Company"
 - "Employee"
@@ -33,11 +33,11 @@ depends-member:
 - ["14CoreDataStream8EmployeeC", "NSFetchRequest"]
 - ["14CoreDataStream8EmployeeC", "String"]
 - ["14CoreDataStream8EmployeeC", "age"]
+- ["14CoreDataStream8EmployeeC", "company"]
 - ["14CoreDataStream8EmployeeC", "deinit"]
 - ["14CoreDataStream8EmployeeC", "fetchRequest"]
 - ["14CoreDataStream8EmployeeC", "firstName"]
 - ["14CoreDataStream8EmployeeC", "lastName"]
-- ["14CoreDataStream8EmployeeC", "relationship"]
 - !private ["SQ", "NSFetchRequest"]
 - !private ["SQ", "init"]
 - !private ["SH", "NSFetchRequest"]
@@ -52,21 +52,21 @@ depends-member:
 - ["So15NSManagedObjectC", "NSFetchRequest"]
 - ["So15NSManagedObjectC", "String"]
 - ["So15NSManagedObjectC", "age"]
+- ["So15NSManagedObjectC", "company"]
 - ["So15NSManagedObjectC", "fetchRequest"]
 - ["So15NSManagedObjectC", "firstName"]
 - ["So15NSManagedObjectC", "lastName"]
-- ["So15NSManagedObjectC", "relationship"]
 - ["So8NSObjectC", "Company"]
 - ["So8NSObjectC", "Employee"]
 - ["So8NSObjectC", "Int16"]
 - ["So8NSObjectC", "NSFetchRequest"]
 - ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "age"]
+- ["So8NSObjectC", "company"]
 - ["So8NSObjectC", "fetchRequest"]
 - ["So8NSObjectC", "firstName"]
 - !private ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "lastName"]
-- ["So8NSObjectC", "relationship"]
 - !private ["So8NSObjectP", "NSFetchRequest"]
 - !private ["So8NSObjectP", "init"]
 - !private ["So24NSPersistentStoreRequestC", "init"]
@@ -137,4 +137,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "387e7ad6c107792ab526175efcc62a2e"
+interface-hash: "a6dea3fd9c05e225861a53a550e235e5"
