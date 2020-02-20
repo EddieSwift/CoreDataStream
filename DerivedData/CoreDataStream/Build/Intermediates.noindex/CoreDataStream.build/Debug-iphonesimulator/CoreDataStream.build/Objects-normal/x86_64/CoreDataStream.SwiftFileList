@@ -1,12 +1,9 @@
-/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/ViewController.swift
 /Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/AppDelegate.swift
-/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/CoreData\ Models/Company+CoreDataProperties.swift
-/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/SceneDelegate.swift
 /Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/CoreData\ Models/Employee+CoreDataProperties.swift
-/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/CoreData\ Models/Employee+CoreDataClass.swift
 /Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/CoreData\ Models/Company+CoreDataClass.swift
-/Users/eduardgalchenko/Documents/Projects/CoreDataStream/DerivedData/CoreDataStream/Build/Intermediates.noindex/CoreDataStream.build/Debug-iphonesimulator/CoreDataStream.build/DerivedSources/CoreDataGenerated/CoreDataStream/Company+CoreDataClass.swift
-/Users/eduardgalchenko/Documents/Projects/CoreDataStream/DerivedData/CoreDataStream/Build/Intermediates.noindex/CoreDataStream.build/Debug-iphonesimulator/CoreDataStream.build/DerivedSources/CoreDataGenerated/CoreDataStream/Company+CoreDataProperties.swift
-/Users/eduardgalchenko/Documents/Projects/CoreDataStream/DerivedData/CoreDataStream/Build/Intermediates.noindex/CoreDataStream.build/Debug-iphonesimulator/CoreDataStream.build/DerivedSources/CoreDataGenerated/CoreDataStream/Employee+CoreDataClass.swift
-/Users/eduardgalchenko/Documents/Projects/CoreDataStream/DerivedData/CoreDataStream/Build/Intermediates.noindex/CoreDataStream.build/Debug-iphonesimulator/CoreDataStream.build/DerivedSources/CoreDataGenerated/CoreDataStream/Employee+CoreDataProperties.swift
-/Users/eduardgalchenko/Documents/Projects/CoreDataStream/DerivedData/CoreDataStream/Build/Intermediates.noindex/CoreDataStream.build/Debug-iphonesimulator/CoreDataStream.build/DerivedSources/CoreDataGenerated/CoreDataStream/CoreDataStream+CoreDataModel.swift
+/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/Controllers/DataTableViewController.swift
+/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/CoreData\ Models/Employee+CoreDataClass.swift
+/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/CoreDataStack/CoreDataStack.swift
+/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/SceneDelegate.swift
+/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/Helpers/EmployeeData.swift
+/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/CoreData\ Models/Company+CoreDataProperties.swift

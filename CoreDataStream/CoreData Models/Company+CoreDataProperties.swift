@@ -10,7 +10,6 @@
 import Foundation
 import CoreData
 
-
 extension Company {
 
     @nonobjc public class func fetchRequest() -> NSFetchRequest<Company> {
@@ -19,10 +18,10 @@ extension Company {
 
     @NSManaged public var name: String?
     @NSManaged public var relationship: NSSet?
-
 }
 
 // MARK: Generated accessors for relationship
+
 extension Company {
 
     @objc(addRelationshipObject:)
@@ -36,5 +35,4 @@ extension Company {
 
     @objc(removeRelationship:)
     @NSManaged public func removeFromRelationship(_ values: NSSet)
-
 }

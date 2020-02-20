@@ -216,27 +216,53 @@ SWIFT_CLASS("_TtC14CoreDataStream11AppDelegate")
 @class NSEntityDescription;
 @class NSManagedObjectContext;
 
-SWIFT_CLASS_NAMED("Company")
+SWIFT_CLASS("_TtC14CoreDataStream7Company")
 @interface Company : NSManagedObject
 - (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class Employee;
+@class NSSet;
+
+@interface Company (SWIFT_EXTENSION(CoreDataStream))
+- (void)addRelationshipObject:(Employee * _Nonnull)value;
+- (void)removeRelationshipObject:(Employee * _Nonnull)value;
+- (void)addRelationship:(NSSet * _Nonnull)values;
+- (void)removeRelationship:(NSSet * _Nonnull)values;
 @end
 
 
 @interface Company (SWIFT_EXTENSION(CoreDataStream))
 @property (nonatomic, copy) NSString * _Nullable name;
+@property (nonatomic, strong) NSSet * _Nullable relationship;
+@end
+
+@class UITableView;
+@class NSBundle;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC14CoreDataStream23DataTableViewController")
+@interface DataTableViewController : UITableViewController
+- (void)viewDidLoad;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-SWIFT_CLASS_NAMED("Employee")
+SWIFT_CLASS("_TtC14CoreDataStream8Employee")
 @interface Employee : NSManagedObject
 - (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
 @interface Employee (SWIFT_EXTENSION(CoreDataStream))
-@property (nonatomic) int16_t age;
 @property (nonatomic, copy) NSString * _Nullable firstName;
 @property (nonatomic, copy) NSString * _Nullable lastName;
+@property (nonatomic) int16_t age;
+@property (nonatomic, strong) Company * _Nullable relationship;
 @end
 
 @class UIWindow;
@@ -252,16 +278,6 @@ SWIFT_CLASS("_TtC14CoreDataStream13SceneDelegate")
 - (void)sceneWillEnterForeground:(UIScene * _Nonnull)scene;
 - (void)sceneDidEnterBackground:(UIScene * _Nonnull)scene;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class NSBundle;
-@class NSCoder;
-
-SWIFT_CLASS("_TtC14CoreDataStream14ViewController")
-@interface ViewController : UIViewController
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 #if __has_attribute(external_source_symbol)

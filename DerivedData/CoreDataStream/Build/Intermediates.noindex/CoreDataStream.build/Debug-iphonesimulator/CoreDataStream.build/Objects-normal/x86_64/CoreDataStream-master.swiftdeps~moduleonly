@@ -1,12 +1,13 @@
 version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
 options: "95eb29f537b7c04c8a772fe5b4cb6a1a"
-build_time: [1582189965, 720147000]
+build_time: [1582194985, 175284000]
 inputs:
-  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/ViewController.swift": [1582188199, 634333197]
-  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/AppDelegate.swift": [1582188199, 628046919]
-  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/SceneDelegate.swift": [1582188199, 631800354]
-  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/DerivedData/CoreDataStream/Build/Intermediates.noindex/CoreDataStream.build/Debug-iphonesimulator/CoreDataStream.build/DerivedSources/CoreDataGenerated/CoreDataStream/Company+CoreDataClass.swift": [1582188532, 705755473]
-  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/DerivedData/CoreDataStream/Build/Intermediates.noindex/CoreDataStream.build/Debug-iphonesimulator/CoreDataStream.build/DerivedSources/CoreDataGenerated/CoreDataStream/Company+CoreDataProperties.swift": [1582188532, 706943333]
-  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/DerivedData/CoreDataStream/Build/Intermediates.noindex/CoreDataStream.build/Debug-iphonesimulator/CoreDataStream.build/DerivedSources/CoreDataGenerated/CoreDataStream/Employee+CoreDataClass.swift": [1582188532, 706326894]
-  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/DerivedData/CoreDataStream/Build/Intermediates.noindex/CoreDataStream.build/Debug-iphonesimulator/CoreDataStream.build/DerivedSources/CoreDataGenerated/CoreDataStream/Employee+CoreDataProperties.swift": [1582188532, 707359774]
-  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/DerivedData/CoreDataStream/Build/Intermediates.noindex/CoreDataStream.build/Debug-iphonesimulator/CoreDataStream.build/DerivedSources/CoreDataGenerated/CoreDataStream/CoreDataStream+CoreDataModel.swift": [1582188532, 703794407]
+  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/AppDelegate.swift": [1582194985, 119229525]
+  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/CoreData Models/Employee+CoreDataProperties.swift": [1582194939, 682696482]
+  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/CoreData Models/Company+CoreDataClass.swift": [1582194939, 658462447]
+  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/Controllers/DataTableViewController.swift": [1582193414, 564321719]
+  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/CoreData Models/Employee+CoreDataClass.swift": [1582194939, 695705234]
+  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/CoreDataStack/CoreDataStack.swift": !dirty [1582194985, 95416425]
+  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/SceneDelegate.swift": !private [1582188199, 631800354]
+  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/Helpers/EmployeeData.swift": [1582194082, 837253045]
+  "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/CoreData Models/Company+CoreDataProperties.swift": [1582194939, 705768335]

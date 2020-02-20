@@ -10,7 +10,6 @@
 import Foundation
 import CoreData
 
-
 extension Employee {
 
     @nonobjc public class func fetchRequest() -> NSFetchRequest<Employee> {
@@ -21,5 +20,4 @@ extension Employee {
     @NSManaged public var lastName: String?
     @NSManaged public var age: Int16
     @NSManaged public var relationship: Company?
-
 }

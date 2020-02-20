@@ -4,14 +4,17 @@ provides-nominal:
 provides-member:
 - ["14CoreDataStream8EmployeeC", ""]
 - ["14CoreDataStream8EmployeeC", "fetchRequest"]
-- ["14CoreDataStream8EmployeeC", "age"]
 - ["14CoreDataStream8EmployeeC", "firstName"]
 - ["14CoreDataStream8EmployeeC", "lastName"]
+- ["14CoreDataStream8EmployeeC", "age"]
+- ["14CoreDataStream8EmployeeC", "relationship"]
 provides-dynamic-lookup:
 - "age"
 - "firstName"
 - "lastName"
+- "relationship"
 depends-top-level:
+- "Company"
 - "Employee"
 - "Int16"
 - "NSFetchRequest"
@@ -24,6 +27,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "NSFetchRequest"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- ["14CoreDataStream8EmployeeC", "Company"]
 - ["14CoreDataStream8EmployeeC", "Employee"]
 - ["14CoreDataStream8EmployeeC", "Int16"]
 - ["14CoreDataStream8EmployeeC", "NSFetchRequest"]
@@ -33,6 +37,7 @@ depends-member:
 - ["14CoreDataStream8EmployeeC", "fetchRequest"]
 - ["14CoreDataStream8EmployeeC", "firstName"]
 - ["14CoreDataStream8EmployeeC", "lastName"]
+- ["14CoreDataStream8EmployeeC", "relationship"]
 - !private ["SQ", "NSFetchRequest"]
 - !private ["SQ", "init"]
 - !private ["SH", "NSFetchRequest"]
@@ -41,6 +46,7 @@ depends-member:
 - !private ["So9NSCopyingP", "init"]
 - !private ["So14NSFetchRequestC", "init"]
 - !private ["So20NSFetchRequestResultP", "NSFetchRequest"]
+- ["So15NSManagedObjectC", "Company"]
 - ["So15NSManagedObjectC", "Employee"]
 - ["So15NSManagedObjectC", "Int16"]
 - ["So15NSManagedObjectC", "NSFetchRequest"]
@@ -49,6 +55,8 @@ depends-member:
 - ["So15NSManagedObjectC", "fetchRequest"]
 - ["So15NSManagedObjectC", "firstName"]
 - ["So15NSManagedObjectC", "lastName"]
+- ["So15NSManagedObjectC", "relationship"]
+- ["So8NSObjectC", "Company"]
 - ["So8NSObjectC", "Employee"]
 - ["So8NSObjectC", "Int16"]
 - ["So8NSObjectC", "NSFetchRequest"]
@@ -58,6 +66,7 @@ depends-member:
 - ["So8NSObjectC", "firstName"]
 - !private ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "lastName"]
+- ["So8NSObjectC", "relationship"]
 - !private ["So8NSObjectP", "NSFetchRequest"]
 - !private ["So8NSObjectP", "init"]
 - !private ["So24NSPersistentStoreRequestC", "init"]
@@ -106,9 +115,11 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -126,4 +137,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "26e94958f2be48d14e3ffdd83adb6eba"
+interface-hash: "387e7ad6c107792ab526175efcc62a2e"

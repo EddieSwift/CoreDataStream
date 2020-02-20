@@ -11,25 +11,16 @@ depends-top-level:
 - "AppDelegate"
 - "Bool"
 - !private "BooleanLiteralType"
-- "CastingPrecedence"
-- "FloatLiteralType"
-- "IntegerLiteralType"
-- "NSError"
-- "NSPersistentContainer"
 - "Set"
-- "StringLiteralType"
+- !private "StringLiteralType"
 - "UIApplication"
 - "UIApplicationDelegate"
 - "UIResponder"
 - "UIScene"
 - "UISceneConfiguration"
 - "UISceneSession"
-- "fatalError"
 depends-member:
-- !private ["14CoreDataStream11AppDelegateC", "$__lazy_storage_$_persistentContainer"]
 - ["14CoreDataStream11AppDelegateC", "Bool"]
-- ["14CoreDataStream11AppDelegateC", "NSError"]
-- ["14CoreDataStream11AppDelegateC", "NSPersistentContainer"]
 - ["14CoreDataStream11AppDelegateC", "Set"]
 - ["14CoreDataStream11AppDelegateC", "UIApplication"]
 - ["14CoreDataStream11AppDelegateC", "UIScene"]
@@ -48,14 +39,10 @@ depends-member:
 - ["14CoreDataStream11AppDelegateC", "applicationWillResignActive"]
 - ["14CoreDataStream11AppDelegateC", "applicationWillTerminate"]
 - ["14CoreDataStream11AppDelegateC", "deinit"]
-- ["14CoreDataStream11AppDelegateC", "fatalError"]
 - ["14CoreDataStream11AppDelegateC", "init"]
-- ["14CoreDataStream11AppDelegateC", "persistentContainer"]
-- ["14CoreDataStream11AppDelegateC", "saveContext"]
 - ["14CoreDataStream11AppDelegateC", "window"]
 - ["s7CVarArgP", "ConnectionOptions"]
 - ["s7CVarArgP", "LaunchOptionsKey"]
-- ["s7CVarArgP", "NSPersistentContainer"]
 - !private ["s7CVarArgP", "UISceneConfiguration"]
 - ["s7CVarArgP", ""]
 - ["s7CVarArgP", "application"]
@@ -70,19 +57,11 @@ depends-member:
 - ["s7CVarArgP", "applicationWillEnterForeground"]
 - ["s7CVarArgP", "applicationWillResignActive"]
 - ["s7CVarArgP", "applicationWillTerminate"]
-- ["s7CVarArgP", "fatalError"]
-- !private ["s7CVarArgP", "hasChanges"]
-- ["s7CVarArgP", "init"]
-- ["s7CVarArgP", "loadPersistentStores"]
-- !private ["s7CVarArgP", "persistentContainer"]
+- !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "role"]
-- !private ["s7CVarArgP", "save"]
-- ["s7CVarArgP", "userInfo"]
-- !private ["s7CVarArgP", "viewContext"]
 - ["s7CVarArgP", "window"]
 - ["s28CustomDebugStringConvertibleP", "ConnectionOptions"]
 - ["s28CustomDebugStringConvertibleP", "LaunchOptionsKey"]
-- ["s28CustomDebugStringConvertibleP", "NSPersistentContainer"]
 - !private ["s28CustomDebugStringConvertibleP", "UISceneConfiguration"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - ["s28CustomDebugStringConvertibleP", "application"]
@@ -97,23 +76,13 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "applicationWillEnterForeground"]
 - ["s28CustomDebugStringConvertibleP", "applicationWillResignActive"]
 - ["s28CustomDebugStringConvertibleP", "applicationWillTerminate"]
-- ["s28CustomDebugStringConvertibleP", "fatalError"]
-- !private ["s28CustomDebugStringConvertibleP", "hasChanges"]
-- ["s28CustomDebugStringConvertibleP", "init"]
-- ["s28CustomDebugStringConvertibleP", "loadPersistentStores"]
-- !private ["s28CustomDebugStringConvertibleP", "persistentContainer"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "role"]
-- !private ["s28CustomDebugStringConvertibleP", "save"]
-- ["s28CustomDebugStringConvertibleP", "userInfo"]
-- !private ["s28CustomDebugStringConvertibleP", "viewContext"]
 - ["s28CustomDebugStringConvertibleP", "window"]
 - ["s23CustomStringConvertibleP", "ConnectionOptions"]
 - ["s23CustomStringConvertibleP", "LaunchOptionsKey"]
-- ["s23CustomStringConvertibleP", "NSPersistentContainer"]
 - !private ["s23CustomStringConvertibleP", "UISceneConfiguration"]
 - ["s23CustomStringConvertibleP", ""]
-- ["s23CustomStringConvertibleP", "appendInterpolation"]
-- ["s23CustomStringConvertibleP", "appendLiteral"]
 - ["s23CustomStringConvertibleP", "application"]
 - ["s23CustomStringConvertibleP", "applicationDidBecomeActive"]
 - ["s23CustomStringConvertibleP", "applicationDidEnterBackground"]
@@ -126,21 +95,11 @@ depends-member:
 - ["s23CustomStringConvertibleP", "applicationWillEnterForeground"]
 - ["s23CustomStringConvertibleP", "applicationWillResignActive"]
 - ["s23CustomStringConvertibleP", "applicationWillTerminate"]
-- ["s23CustomStringConvertibleP", "fatalError"]
-- !private ["s23CustomStringConvertibleP", "hasChanges"]
-- ["s23CustomStringConvertibleP", "init"]
-- ["s23CustomStringConvertibleP", "loadPersistentStores"]
-- !private ["s23CustomStringConvertibleP", "persistentContainer"]
+- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "role"]
-- !private ["s23CustomStringConvertibleP", "save"]
-- ["s23CustomStringConvertibleP", "userInfo"]
-- !private ["s23CustomStringConvertibleP", "viewContext"]
 - ["s23CustomStringConvertibleP", "window"]
-- ["s26DefaultStringInterpolationV", "appendInterpolation"]
-- ["s26DefaultStringInterpolationV", "appendLiteral"]
 - ["SQ", "ConnectionOptions"]
 - ["SQ", "LaunchOptionsKey"]
-- ["SQ", "NSPersistentContainer"]
 - !private ["SQ", "UISceneConfiguration"]
 - ["SQ", ""]
 - ["SQ", "application"]
@@ -155,20 +114,11 @@ depends-member:
 - ["SQ", "applicationWillEnterForeground"]
 - ["SQ", "applicationWillResignActive"]
 - ["SQ", "applicationWillTerminate"]
-- ["SQ", "fatalError"]
-- !private ["SQ", "hasChanges"]
-- ["SQ", "init"]
-- ["SQ", "loadPersistentStores"]
-- !private ["SQ", "persistentContainer"]
+- !private ["SQ", "init"]
 - !private ["SQ", "role"]
-- !private ["SQ", "save"]
-- ["SQ", "userInfo"]
-- !private ["SQ", "viewContext"]
 - ["SQ", "window"]
-- ["s5ErrorP", "userInfo"]
 - ["SH", "ConnectionOptions"]
 - ["SH", "LaunchOptionsKey"]
-- ["SH", "NSPersistentContainer"]
 - !private ["SH", "UISceneConfiguration"]
 - ["SH", ""]
 - ["SH", "application"]
@@ -183,34 +133,15 @@ depends-member:
 - ["SH", "applicationWillEnterForeground"]
 - ["SH", "applicationWillResignActive"]
 - ["SH", "applicationWillTerminate"]
-- ["SH", "fatalError"]
-- !private ["SH", "hasChanges"]
-- ["SH", "init"]
-- ["SH", "loadPersistentStores"]
-- !private ["SH", "persistentContainer"]
+- !private ["SH", "init"]
 - !private ["SH", "role"]
-- !private ["SH", "save"]
-- ["SH", "userInfo"]
-- !private ["SH", "viewContext"]
 - ["SH", "window"]
-- !private ["So8NSCodingP", "hasChanges"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "role"]
-- !private ["So8NSCodingP", "save"]
-- ["So8NSCodingP", "userInfo"]
 - !private ["So9NSCopyingP", "init"]
-- ["So9NSCopyingP", "userInfo"]
-- ["So7NSErrorC", "userInfo"]
-- !private ["So9NSLockingP", "hasChanges"]
-- !private ["So9NSLockingP", "save"]
-- !private ["So22NSManagedObjectContextC", "hasChanges"]
-- !private ["So22NSManagedObjectContextC", "save"]
-- ["So8NSObjectC", "$__lazy_storage_$_persistentContainer"]
 - ["So8NSObjectC", "Bool"]
 - ["So8NSObjectC", "ConnectionOptions"]
 - ["So8NSObjectC", "LaunchOptionsKey"]
-- ["So8NSObjectC", "NSError"]
-- ["So8NSObjectC", "NSPersistentContainer"]
 - ["So8NSObjectC", "Set"]
 - ["So8NSObjectC", "UIApplication"]
 - ["So8NSObjectC", "UIScene"]
@@ -228,20 +159,11 @@ depends-member:
 - ["So8NSObjectC", "applicationWillEnterForeground"]
 - ["So8NSObjectC", "applicationWillResignActive"]
 - ["So8NSObjectC", "applicationWillTerminate"]
-- ["So8NSObjectC", "fatalError"]
-- !private ["So8NSObjectC", "hasChanges"]
 - ["So8NSObjectC", "init"]
-- ["So8NSObjectC", "loadPersistentStores"]
-- ["So8NSObjectC", "persistentContainer"]
 - !private ["So8NSObjectC", "role"]
-- !private ["So8NSObjectC", "save"]
-- ["So8NSObjectC", "saveContext"]
-- ["So8NSObjectC", "userInfo"]
-- !private ["So8NSObjectC", "viewContext"]
 - ["So8NSObjectC", "window"]
 - ["So8NSObjectP", "ConnectionOptions"]
 - ["So8NSObjectP", "LaunchOptionsKey"]
-- ["So8NSObjectP", "NSPersistentContainer"]
 - !private ["So8NSObjectP", "UISceneConfiguration"]
 - ["So8NSObjectP", ""]
 - ["So8NSObjectP", "application"]
@@ -256,28 +178,12 @@ depends-member:
 - ["So8NSObjectP", "applicationWillEnterForeground"]
 - ["So8NSObjectP", "applicationWillResignActive"]
 - ["So8NSObjectP", "applicationWillTerminate"]
-- ["So8NSObjectP", "fatalError"]
-- !private ["So8NSObjectP", "hasChanges"]
-- ["So8NSObjectP", "init"]
-- ["So8NSObjectP", "loadPersistentStores"]
-- !private ["So8NSObjectP", "persistentContainer"]
+- !private ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "role"]
-- !private ["So8NSObjectP", "save"]
-- ["So8NSObjectP", "userInfo"]
-- !private ["So8NSObjectP", "viewContext"]
 - ["So8NSObjectP", "window"]
-- ["So21NSPersistentContainerC", "init"]
-- ["So21NSPersistentContainerC", "loadPersistentStores"]
-- !private ["So21NSPersistentContainerC", "viewContext"]
 - !private ["So14NSSecureCodingP", "init"]
 - !private ["So14NSSecureCodingP", "role"]
-- ["So14NSSecureCodingP", "userInfo"]
-- ["s27StringInterpolationProtocolP", "appendInterpolation"]
-- ["s27StringInterpolationProtocolP", "appendLiteral"]
-- ["s16TextOutputStreamP", "appendInterpolation"]
-- ["s16TextOutputStreamP", "appendLiteral"]
 - ["So13UIApplicationC", "LaunchOptionsKey"]
-- ["So21UIApplicationDelegateP", "NSPersistentContainer"]
 - !private ["So21UIApplicationDelegateP", "UISceneConfiguration"]
 - ["So21UIApplicationDelegateP", ""]
 - ["So21UIApplicationDelegateP", "application"]
@@ -292,12 +198,9 @@ depends-member:
 - ["So21UIApplicationDelegateP", "applicationWillEnterForeground"]
 - ["So21UIApplicationDelegateP", "applicationWillResignActive"]
 - ["So21UIApplicationDelegateP", "applicationWillTerminate"]
-- ["So21UIApplicationDelegateP", "fatalError"]
-- !private ["So21UIApplicationDelegateP", "persistentContainer"]
 - ["So21UIApplicationDelegateP", "window"]
 - ["So30UIPasteConfigurationSupportingP", "ConnectionOptions"]
 - ["So30UIPasteConfigurationSupportingP", "LaunchOptionsKey"]
-- ["So30UIPasteConfigurationSupportingP", "NSPersistentContainer"]
 - !private ["So30UIPasteConfigurationSupportingP", "UISceneConfiguration"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - ["So30UIPasteConfigurationSupportingP", "application"]
@@ -312,16 +215,11 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "applicationWillEnterForeground"]
 - ["So30UIPasteConfigurationSupportingP", "applicationWillResignActive"]
 - ["So30UIPasteConfigurationSupportingP", "applicationWillTerminate"]
-- ["So30UIPasteConfigurationSupportingP", "fatalError"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
-- !private ["So30UIPasteConfigurationSupportingP", "persistentContainer"]
 - ["So30UIPasteConfigurationSupportingP", "window"]
-- ["So11UIResponderC", "$__lazy_storage_$_persistentContainer"]
 - ["So11UIResponderC", "Bool"]
 - ["So11UIResponderC", "ConnectionOptions"]
 - ["So11UIResponderC", "LaunchOptionsKey"]
-- ["So11UIResponderC", "NSError"]
-- ["So11UIResponderC", "NSPersistentContainer"]
 - ["So11UIResponderC", "Set"]
 - ["So11UIResponderC", "UIApplication"]
 - ["So11UIResponderC", "UIScene"]
@@ -340,14 +238,10 @@ depends-member:
 - ["So11UIResponderC", "applicationWillEnterForeground"]
 - ["So11UIResponderC", "applicationWillResignActive"]
 - ["So11UIResponderC", "applicationWillTerminate"]
-- ["So11UIResponderC", "fatalError"]
 - ["So11UIResponderC", "init"]
-- ["So11UIResponderC", "persistentContainer"]
-- ["So11UIResponderC", "saveContext"]
 - ["So11UIResponderC", "window"]
 - ["So30UIResponderStandardEditActionsP", "ConnectionOptions"]
 - ["So30UIResponderStandardEditActionsP", "LaunchOptionsKey"]
-- ["So30UIResponderStandardEditActionsP", "NSPersistentContainer"]
 - !private ["So30UIResponderStandardEditActionsP", "UISceneConfiguration"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - ["So30UIResponderStandardEditActionsP", "application"]
@@ -362,16 +256,13 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "applicationWillEnterForeground"]
 - ["So30UIResponderStandardEditActionsP", "applicationWillResignActive"]
 - ["So30UIResponderStandardEditActionsP", "applicationWillTerminate"]
-- ["So30UIResponderStandardEditActionsP", "fatalError"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
-- !private ["So30UIResponderStandardEditActionsP", "persistentContainer"]
 - ["So30UIResponderStandardEditActionsP", "window"]
 - ["So7UISceneC", "ConnectionOptions"]
 - !private ["So20UISceneConfigurationC", "init"]
 - !private ["So14UISceneSessionC", "role"]
 - ["So23UIUserActivityRestoringP", "ConnectionOptions"]
 - ["So23UIUserActivityRestoringP", "LaunchOptionsKey"]
-- ["So23UIUserActivityRestoringP", "NSPersistentContainer"]
 - !private ["So23UIUserActivityRestoringP", "UISceneConfiguration"]
 - ["So23UIUserActivityRestoringP", ""]
 - ["So23UIUserActivityRestoringP", "application"]
@@ -386,13 +277,10 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "applicationWillEnterForeground"]
 - ["So23UIUserActivityRestoringP", "applicationWillResignActive"]
 - ["So23UIUserActivityRestoringP", "applicationWillTerminate"]
-- ["So23UIUserActivityRestoringP", "fatalError"]
 - !private ["So23UIUserActivityRestoringP", "init"]
-- !private ["So23UIUserActivityRestoringP", "persistentContainer"]
 - ["So23UIUserActivityRestoringP", "window"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "ConnectionOptions"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "LaunchOptionsKey"]
-- ["10Foundation27_KeyValueCodingAndObservingP", "NSPersistentContainer"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UISceneConfiguration"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - ["10Foundation27_KeyValueCodingAndObservingP", "application"]
@@ -407,19 +295,11 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillEnterForeground"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillResignActive"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillTerminate"]
-- ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasChanges"]
-- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
-- ["10Foundation27_KeyValueCodingAndObservingP", "loadPersistentStores"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "persistentContainer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "role"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "save"]
-- ["10Foundation27_KeyValueCodingAndObservingP", "userInfo"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewContext"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ConnectionOptions"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LaunchOptionsKey"]
-- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSPersistentContainer"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UISceneConfiguration"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "application"]
@@ -434,36 +314,21 @@ depends-member:
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationWillEnterForeground"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationWillResignActive"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationWillTerminate"]
-- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fatalError"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hasChanges"]
-- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
-- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "loadPersistentStores"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "persistentContainer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "role"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "save"]
-- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "userInfo"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewContext"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "window"]
 depends-nominal:
 - "14CoreDataStream11AppDelegateC"
 - "s7CVarArgP"
 - "s28CustomDebugStringConvertibleP"
 - "s23CustomStringConvertibleP"
-- "s26DefaultStringInterpolationV"
 - "SQ"
-- "s5ErrorP"
 - "SH"
-- "So8NSCodingP"
-- "So9NSCopyingP"
-- "So7NSErrorC"
-- !private "So9NSLockingP"
-- !private "So22NSManagedObjectContextC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
-- "So21NSPersistentContainerC"
-- "So14NSSecureCodingP"
-- "s27StringInterpolationProtocolP"
-- "s16TextOutputStreamP"
+- !private "So14NSSecureCodingP"
 - "So13UIApplicationC"
 - "So21UIApplicationDelegateP"
 - "So30UIPasteConfigurationSupportingP"
@@ -497,8 +362,14 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
@@ -513,4 +384,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "fa76ad0506127b0e8fb4253c5b751295"
+interface-hash: "32f3f7f8fec1db170f4a48cd26aba846"

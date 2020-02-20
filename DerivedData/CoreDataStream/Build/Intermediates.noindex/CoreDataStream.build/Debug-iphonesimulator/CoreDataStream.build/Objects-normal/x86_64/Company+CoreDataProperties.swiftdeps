@@ -5,22 +5,37 @@ provides-member:
 - ["14CoreDataStream7CompanyC", ""]
 - ["14CoreDataStream7CompanyC", "fetchRequest"]
 - ["14CoreDataStream7CompanyC", "name"]
+- ["14CoreDataStream7CompanyC", "relationship"]
+- ["14CoreDataStream7CompanyC", "addToRelationship"]
+- ["14CoreDataStream7CompanyC", "removeFromRelationship"]
+- ["14CoreDataStream7CompanyC", "addToRelationship"]
+- ["14CoreDataStream7CompanyC", "removeFromRelationship"]
 provides-dynamic-lookup:
+- "addToRelationship"
 - "name"
+- "relationship"
+- "removeFromRelationship"
 depends-top-level:
 - "Company"
+- "Employee"
 - "NSFetchRequest"
+- "NSSet"
 - "String"
 - !private "StringLiteralType"
 depends-member:
 - !private ["s7CVarArgP", "NSFetchRequest"]
 - !private ["s7CVarArgP", "init"]
 - ["14CoreDataStream7CompanyC", "Company"]
+- ["14CoreDataStream7CompanyC", "Employee"]
 - ["14CoreDataStream7CompanyC", "NSFetchRequest"]
+- ["14CoreDataStream7CompanyC", "NSSet"]
 - ["14CoreDataStream7CompanyC", "String"]
+- ["14CoreDataStream7CompanyC", "addToRelationship"]
 - ["14CoreDataStream7CompanyC", "deinit"]
 - ["14CoreDataStream7CompanyC", "fetchRequest"]
 - ["14CoreDataStream7CompanyC", "name"]
+- ["14CoreDataStream7CompanyC", "relationship"]
+- ["14CoreDataStream7CompanyC", "removeFromRelationship"]
 - !private ["s28CustomDebugStringConvertibleP", "NSFetchRequest"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "NSFetchRequest"]
@@ -34,16 +49,26 @@ depends-member:
 - !private ["So14NSFetchRequestC", "init"]
 - !private ["So20NSFetchRequestResultP", "NSFetchRequest"]
 - ["So15NSManagedObjectC", "Company"]
+- ["So15NSManagedObjectC", "Employee"]
 - ["So15NSManagedObjectC", "NSFetchRequest"]
+- ["So15NSManagedObjectC", "NSSet"]
 - ["So15NSManagedObjectC", "String"]
+- ["So15NSManagedObjectC", "addToRelationship"]
 - ["So15NSManagedObjectC", "fetchRequest"]
 - ["So15NSManagedObjectC", "name"]
+- ["So15NSManagedObjectC", "relationship"]
+- ["So15NSManagedObjectC", "removeFromRelationship"]
 - ["So8NSObjectC", "Company"]
+- ["So8NSObjectC", "Employee"]
 - ["So8NSObjectC", "NSFetchRequest"]
+- ["So8NSObjectC", "NSSet"]
 - ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "addToRelationship"]
 - ["So8NSObjectC", "fetchRequest"]
 - !private ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "name"]
+- ["So8NSObjectC", "relationship"]
+- ["So8NSObjectC", "removeFromRelationship"]
 - !private ["So8NSObjectP", "NSFetchRequest"]
 - !private ["So8NSObjectP", "init"]
 - !private ["So24NSPersistentStoreRequestC", "init"]
@@ -96,6 +121,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -113,4 +139,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "addd0da3f845b31f2f5a174c6d095e6a"
+interface-hash: "8bcbc2ac08e4ff09827da77a5daa1a23"
