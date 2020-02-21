@@ -4,7 +4,9 @@ provides-top-level:
 provides-nominal:
 - "14CoreDataStream0aB5StackC"
 provides-member:
+- ["So15NSManagedObjectC", ""]
 - ["14CoreDataStream0aB5StackC", ""]
+- ["So15NSManagedObjectC", "init"]
 provides-dynamic-lookup:
 depends-top-level:
 - "AssignmentPrecedence"
@@ -12,123 +14,232 @@ depends-top-level:
 - "CoreDataStack"
 - "FloatLiteralType"
 - "IntegerLiteralType"
+- !private "NSEntityDescription"
 - "NSError"
+- "NSManagedObject"
 - "NSManagedObjectContext"
 - "NSPersistentContainer"
 - "String"
 - "StringLiteralType"
 - "print"
+- !private "type"
 depends-member:
+- !private ["SK", "init"]
+- !private ["s7CVarArgP", "NSEntityDescription"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "entity"]
 - !private ["s7CVarArgP", "hasChanges"]
 - ["s7CVarArgP", "init"]
 - ["s7CVarArgP", "loadPersistentStores"]
 - !private ["s7CVarArgP", "save"]
+- !private ["s7CVarArgP", "type"]
 - ["s7CVarArgP", "userInfo"]
 - ["s7CVarArgP", "viewContext"]
-- !private ["14CoreDataStream0aB5StackC", "$__lazy_storage_$_managedContext"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["14CoreDataStream0aB5StackC", "$__lazy_storage_$_backgroundContext"]
 - !private ["14CoreDataStream0aB5StackC", "$__lazy_storage_$_storeContainer"]
 - ["14CoreDataStream0aB5StackC", "NSError"]
 - ["14CoreDataStream0aB5StackC", "NSManagedObjectContext"]
 - ["14CoreDataStream0aB5StackC", "NSPersistentContainer"]
 - ["14CoreDataStream0aB5StackC", "String"]
+- ["14CoreDataStream0aB5StackC", "backgroundContext"]
 - ["14CoreDataStream0aB5StackC", "init"]
-- ["14CoreDataStream0aB5StackC", "managedContext"]
 - ["14CoreDataStream0aB5StackC", "modelName"]
 - ["14CoreDataStream0aB5StackC", "print"]
 - ["14CoreDataStream0aB5StackC", "saveContext"]
 - ["14CoreDataStream0aB5StackC", "storeContainer"]
+- !private ["s28CustomDebugStringConvertibleP", "NSEntityDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "entity"]
 - !private ["s28CustomDebugStringConvertibleP", "hasChanges"]
 - ["s28CustomDebugStringConvertibleP", "init"]
 - ["s28CustomDebugStringConvertibleP", "loadPersistentStores"]
 - !private ["s28CustomDebugStringConvertibleP", "save"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
 - ["s28CustomDebugStringConvertibleP", "userInfo"]
 - ["s28CustomDebugStringConvertibleP", "viewContext"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "NSEntityDescription"]
+- !private ["s23CustomStringConvertibleP", "String"]
 - ["s23CustomStringConvertibleP", "appendInterpolation"]
 - ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "entity"]
 - !private ["s23CustomStringConvertibleP", "hasChanges"]
 - ["s23CustomStringConvertibleP", "init"]
 - ["s23CustomStringConvertibleP", "loadPersistentStores"]
 - !private ["s23CustomStringConvertibleP", "save"]
+- !private ["s23CustomStringConvertibleP", "type"]
 - ["s23CustomStringConvertibleP", "userInfo"]
 - ["s23CustomStringConvertibleP", "viewContext"]
+- !private ["Se", "init"]
 - ["s26DefaultStringInterpolationV", "appendInterpolation"]
 - ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "init"]
+- !private ["SQ", "NSEntityDescription"]
+- !private ["SQ", "String"]
+- !private ["SQ", "entity"]
 - !private ["SQ", "hasChanges"]
 - ["SQ", "init"]
 - ["SQ", "loadPersistentStores"]
 - !private ["SQ", "save"]
+- !private ["SQ", "type"]
 - ["SQ", "userInfo"]
 - ["SQ", "viewContext"]
 - ["s5ErrorP", "userInfo"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "NSEntityDescription"]
+- !private ["SH", "String"]
+- !private ["SH", "entity"]
 - !private ["SH", "hasChanges"]
 - ["SH", "init"]
 - ["SH", "loadPersistentStores"]
 - !private ["SH", "save"]
+- !private ["SH", "type"]
 - ["SH", "userInfo"]
 - ["SH", "viewContext"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "entity"]
 - !private ["So8NSCodingP", "hasChanges"]
 - !private ["So8NSCodingP", "save"]
 - ["So8NSCodingP", "userInfo"]
+- !private ["So9NSCopyingP", "entity"]
 - ["So9NSCopyingP", "userInfo"]
+- !private ["So19NSEntityDescriptionC", "entity"]
 - ["So7NSErrorC", "userInfo"]
+- !private ["So17NSFastEnumerationP", "entity"]
+- !private ["So20NSFetchRequestResultP", "NSEntityDescription"]
+- !private ["So20NSFetchRequestResultP", "String"]
+- !private ["So20NSFetchRequestResultP", "init"]
+- !private ["So20NSFetchRequestResultP", "type"]
 - !private ["So9NSLockingP", "hasChanges"]
 - !private ["So9NSLockingP", "save"]
+- !private ["So15NSManagedObjectC", "NSEntityDescription"]
+- ["So15NSManagedObjectC", "NSManagedObjectContext"]
+- !private ["So15NSManagedObjectC", "String"]
+- ["So15NSManagedObjectC", "init"]
+- !private ["So15NSManagedObjectC", "type"]
 - !private ["So22NSManagedObjectContextC", "hasChanges"]
 - !private ["So22NSManagedObjectContextC", "save"]
+- !private ["So8NSObjectC", "NSEntityDescription"]
+- ["So8NSObjectC", "NSManagedObjectContext"]
+- !private ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "entity"]
 - !private ["So8NSObjectC", "hasChanges"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "loadPersistentStores"]
 - !private ["So8NSObjectC", "save"]
+- !private ["So8NSObjectC", "type"]
 - ["So8NSObjectC", "userInfo"]
 - ["So8NSObjectC", "viewContext"]
+- !private ["So8NSObjectP", "NSEntityDescription"]
+- !private ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "entity"]
 - !private ["So8NSObjectP", "hasChanges"]
 - ["So8NSObjectP", "init"]
 - ["So8NSObjectP", "loadPersistentStores"]
 - !private ["So8NSObjectP", "save"]
+- !private ["So8NSObjectP", "type"]
 - ["So8NSObjectP", "userInfo"]
 - ["So8NSObjectP", "viewContext"]
 - ["So21NSPersistentContainerC", "init"]
 - ["So21NSPersistentContainerC", "loadPersistentStores"]
 - ["So21NSPersistentContainerC", "viewContext"]
 - ["So14NSSecureCodingP", "userInfo"]
+- !private ["7Combine16ObservableObjectP", "NSEntityDescription"]
+- !private ["7Combine16ObservableObjectP", "String"]
+- !private ["7Combine16ObservableObjectP", "init"]
+- !private ["7Combine16ObservableObjectP", "type"]
+- !private ["Sm", "init"]
+- !private ["ST", "init"]
+- !private ["SS", "init"]
 - ["s27StringInterpolationProtocolP", "appendInterpolation"]
 - ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "init"]
 - ["s16TextOutputStreamP", "appendInterpolation"]
 - ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSEntityDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "entity"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "hasChanges"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "loadPersistentStores"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "save"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "type"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "userInfo"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "viewContext"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSEntityDescription"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "entity"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hasChanges"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "loadPersistentStores"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "save"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "type"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "userInfo"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewContext"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
 depends-nominal:
+- !private "SK"
 - "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
 - "14CoreDataStream0aB5StackC"
 - "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "Se"
 - "s26DefaultStringInterpolationV"
+- !private "SE"
 - "SQ"
 - "s5ErrorP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
 - "So8NSCodingP"
 - "So9NSCopyingP"
+- !private "So19NSEntityDescriptionC"
 - "So7NSErrorC"
+- !private "So17NSFastEnumerationP"
+- !private "So20NSFetchRequestResultP"
 - !private "So9NSLockingP"
+- "So15NSManagedObjectC"
 - !private "So22NSManagedObjectContextC"
 - "So8NSObjectC"
 - "So8NSObjectP"
 - "So21NSPersistentContainerC"
 - "So14NSSecureCodingP"
+- !private "7Combine16ObservableObjectP"
+- !private "Sm"
+- !private "ST"
+- !private "SS"
 - "s27StringInterpolationProtocolP"
+- !private "Sy"
 - "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
@@ -173,4 +284,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "6a4c0d057f51208c84a3086ab8584a0e"
+interface-hash: "20ee645f91bf19408a2b598a24a01221"

@@ -10,7 +10,7 @@ import Foundation
 
 import Foundation
 
-enum EmployeeInfo {
+enum EmployeeData {
     
     static let names = ["Tran", "Lenore", "Bud", "Fredda", "Katrice",
                         "Clyde", "Hildegard", "Vernell", "Nellie", "Rupert",

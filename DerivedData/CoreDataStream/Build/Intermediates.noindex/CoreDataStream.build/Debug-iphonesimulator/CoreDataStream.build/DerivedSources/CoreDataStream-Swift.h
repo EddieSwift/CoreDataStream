@@ -182,6 +182,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import CoreData;
+@import CoreGraphics;
+@import Foundation;
 @import UIKit;
 #endif
 
@@ -216,19 +218,9 @@ SWIFT_CLASS("_TtC14CoreDataStream11AppDelegate")
 @class NSEntityDescription;
 @class NSManagedObjectContext;
 
-SWIFT_CLASS("_TtC14CoreDataStream7Company")
+SWIFT_CLASS_NAMED("Company")
 @interface Company : NSManagedObject
 - (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class Employee;
-@class NSSet;
-
-@interface Company (SWIFT_EXTENSION(CoreDataStream))
-- (void)addEmployeesObject:(Employee * _Nonnull)value;
-- (void)removeEmployeesObject:(Employee * _Nonnull)value;
-- (void)addEmployees:(NSSet * _Nonnull)values;
-- (void)removeEmployees:(NSSet * _Nonnull)values;
 @end
 
 @class NSOrderedSet;
@@ -238,33 +230,66 @@ SWIFT_CLASS("_TtC14CoreDataStream7Company")
 @property (nonatomic, strong) NSOrderedSet * _Nullable employees;
 @end
 
-@class UITableView;
+@class Employee;
+@class NSIndexSet;
+
+@interface Company (SWIFT_EXTENSION(CoreDataStream))
+- (void)insertObject:(Employee * _Nonnull)value inEmployeesAtIndex:(NSInteger)idx;
+- (void)removeObjectFromEmployeesAtIndex:(NSInteger)idx;
+- (void)insertEmployees:(NSArray<Employee *> * _Nonnull)values atIndexes:(NSIndexSet * _Nonnull)indexes;
+- (void)removeEmployeesAtIndexes:(NSIndexSet * _Nonnull)indexes;
+- (void)replaceObjectInEmployeesAtIndex:(NSInteger)idx withObject:(Employee * _Nonnull)value;
+- (void)replaceEmployeesAtIndexes:(NSIndexSet * _Nonnull)indexes withEmployees:(NSArray<Employee *> * _Nonnull)values;
+- (void)addEmployeesObject:(Employee * _Nonnull)value;
+- (void)removeEmployeesObject:(Employee * _Nonnull)value;
+- (void)addEmployees:(NSOrderedSet * _Nonnull)values;
+- (void)removeEmployees:(NSOrderedSet * _Nonnull)values;
+@end
+
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC14CoreDataStream23DataTableViewController")
 @interface DataTableViewController : UITableViewController
 - (void)viewDidLoad;
-- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITableView;
+@class EmployeeTableViewCell;
 
-SWIFT_CLASS("_TtC14CoreDataStream8Employee")
+@interface DataTableViewController (SWIFT_EXTENSION(CoreDataStream))
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (EmployeeTableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+SWIFT_CLASS_NAMED("Employee")
 @interface Employee : NSManagedObject
 - (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
 @interface Employee (SWIFT_EXTENSION(CoreDataStream))
+@property (nonatomic) int16_t age;
 @property (nonatomic, copy) NSString * _Nullable firstName;
 @property (nonatomic, copy) NSString * _Nullable lastName;
-@property (nonatomic) int16_t age;
 @property (nonatomic, strong) Company * _Nullable company;
 @end
+
+@class UILabel;
+
+SWIFT_CLASS("_TtC14CoreDataStream21EmployeeTableViewCell")
+@interface EmployeeTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified employeeDetails;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 
 @class UIWindow;
 @class UIScene;

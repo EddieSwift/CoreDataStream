@@ -6,6 +6,12 @@ provides-member:
 - ["14CoreDataStream7CompanyC", "fetchRequest"]
 - ["14CoreDataStream7CompanyC", "name"]
 - ["14CoreDataStream7CompanyC", "employees"]
+- ["14CoreDataStream7CompanyC", "insertIntoEmployees"]
+- ["14CoreDataStream7CompanyC", "removeFromEmployees"]
+- ["14CoreDataStream7CompanyC", "insertIntoEmployees"]
+- ["14CoreDataStream7CompanyC", "removeFromEmployees"]
+- ["14CoreDataStream7CompanyC", "replaceEmployees"]
+- ["14CoreDataStream7CompanyC", "replaceEmployees"]
 - ["14CoreDataStream7CompanyC", "addToEmployees"]
 - ["14CoreDataStream7CompanyC", "removeFromEmployees"]
 - ["14CoreDataStream7CompanyC", "addToEmployees"]
@@ -13,14 +19,17 @@ provides-member:
 provides-dynamic-lookup:
 - "addToEmployees"
 - "employees"
+- "insertIntoEmployees"
 - "name"
 - "removeFromEmployees"
+- "replaceEmployees"
 depends-top-level:
 - "Company"
 - "Employee"
+- "Int"
 - "NSFetchRequest"
+- "NSIndexSet"
 - "NSOrderedSet"
-- "NSSet"
 - "String"
 - !private "StringLiteralType"
 depends-member:
@@ -28,16 +37,19 @@ depends-member:
 - !private ["s7CVarArgP", "init"]
 - ["14CoreDataStream7CompanyC", "Company"]
 - ["14CoreDataStream7CompanyC", "Employee"]
+- ["14CoreDataStream7CompanyC", "Int"]
 - ["14CoreDataStream7CompanyC", "NSFetchRequest"]
+- ["14CoreDataStream7CompanyC", "NSIndexSet"]
 - ["14CoreDataStream7CompanyC", "NSOrderedSet"]
-- ["14CoreDataStream7CompanyC", "NSSet"]
 - ["14CoreDataStream7CompanyC", "String"]
 - ["14CoreDataStream7CompanyC", "addToEmployees"]
 - ["14CoreDataStream7CompanyC", "deinit"]
 - ["14CoreDataStream7CompanyC", "employees"]
 - ["14CoreDataStream7CompanyC", "fetchRequest"]
+- ["14CoreDataStream7CompanyC", "insertIntoEmployees"]
 - ["14CoreDataStream7CompanyC", "name"]
 - ["14CoreDataStream7CompanyC", "removeFromEmployees"]
+- ["14CoreDataStream7CompanyC", "replaceEmployees"]
 - !private ["s28CustomDebugStringConvertibleP", "NSFetchRequest"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "NSFetchRequest"]
@@ -52,27 +64,33 @@ depends-member:
 - !private ["So20NSFetchRequestResultP", "NSFetchRequest"]
 - ["So15NSManagedObjectC", "Company"]
 - ["So15NSManagedObjectC", "Employee"]
+- ["So15NSManagedObjectC", "Int"]
 - ["So15NSManagedObjectC", "NSFetchRequest"]
+- ["So15NSManagedObjectC", "NSIndexSet"]
 - ["So15NSManagedObjectC", "NSOrderedSet"]
-- ["So15NSManagedObjectC", "NSSet"]
 - ["So15NSManagedObjectC", "String"]
 - ["So15NSManagedObjectC", "addToEmployees"]
 - ["So15NSManagedObjectC", "employees"]
 - ["So15NSManagedObjectC", "fetchRequest"]
+- ["So15NSManagedObjectC", "insertIntoEmployees"]
 - ["So15NSManagedObjectC", "name"]
 - ["So15NSManagedObjectC", "removeFromEmployees"]
+- ["So15NSManagedObjectC", "replaceEmployees"]
 - ["So8NSObjectC", "Company"]
 - ["So8NSObjectC", "Employee"]
+- ["So8NSObjectC", "Int"]
 - ["So8NSObjectC", "NSFetchRequest"]
+- ["So8NSObjectC", "NSIndexSet"]
 - ["So8NSObjectC", "NSOrderedSet"]
-- ["So8NSObjectC", "NSSet"]
 - ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "addToEmployees"]
 - ["So8NSObjectC", "employees"]
 - ["So8NSObjectC", "fetchRequest"]
 - !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "insertIntoEmployees"]
 - ["So8NSObjectC", "name"]
 - ["So8NSObjectC", "removeFromEmployees"]
+- ["So8NSObjectC", "replaceEmployees"]
 - !private ["So8NSObjectP", "NSFetchRequest"]
 - !private ["So8NSObjectP", "init"]
 - !private ["So24NSPersistentStoreRequestC", "init"]
@@ -143,4 +161,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "7d47de9c84869ec31734779e6d66782e"
+interface-hash: "45323cd085f1b3fe6ae32c02ca04a8ed"

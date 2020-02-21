@@ -14,7 +14,7 @@ struct CoreDataService {
     static let shared = CoreDataService()
     
     let persistentContainer: NSPersistentContainer = {
-        let container = NSPersistentContainer(name: "CompanyAppModel")
+        let container = NSPersistentContainer(name: "CoreDataStream")
         container.loadPersistentStores { (storeDescription, err) in
             if let err = err {
                 fatalError("Loading of storage is failed: \(err.localizedDescription)")
@@ -22,6 +22,17 @@ struct CoreDataService {
         }
         return container
     }()
+    
+//    let persistentContainer: NSPersistentContainer = {
+//        let container = NSPersistentContainer(name: "CoreDataStream")
+//        container.loadPersistentStores(completionHandler: { _, error in
+//            guard error == nil else {
+//                fatalError("Failed to load store")
+//            }
+//            DispatchQueue.main.async {  }
+//        })
+//        return container
+//    }()
     
 //    func fetchData() -> [Company] {
 //        let context = persistentContainer.viewContext

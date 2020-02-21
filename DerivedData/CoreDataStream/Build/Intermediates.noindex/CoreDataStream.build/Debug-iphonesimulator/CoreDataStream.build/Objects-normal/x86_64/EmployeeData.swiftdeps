@@ -1,19 +1,19 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "EmployeeInfo"
+- "EmployeeData"
 provides-nominal:
-- "14CoreDataStream12EmployeeInfoO"
+- "14CoreDataStream08EmployeeB0O"
 provides-member:
-- ["14CoreDataStream12EmployeeInfoO", ""]
+- ["14CoreDataStream08EmployeeB0O", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "EmployeeInfo"
+- "EmployeeData"
 - "StringLiteralType"
 depends-member:
-- ["14CoreDataStream12EmployeeInfoO", "names"]
-- ["14CoreDataStream12EmployeeInfoO", "surnames"]
+- ["14CoreDataStream08EmployeeB0O", "names"]
+- ["14CoreDataStream08EmployeeB0O", "surnames"]
 depends-nominal:
-- "14CoreDataStream12EmployeeInfoO"
+- "14CoreDataStream08EmployeeB0O"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
@@ -58,4 +58,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "5964a9246c337ee7f5cab80a89269506"
+interface-hash: "b8ca26ecbe0b0ad6b47db03d4785247c"

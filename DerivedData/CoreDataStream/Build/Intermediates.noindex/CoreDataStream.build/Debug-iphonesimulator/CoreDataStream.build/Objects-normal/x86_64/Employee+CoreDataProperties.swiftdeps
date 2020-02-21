@@ -4,9 +4,9 @@ provides-nominal:
 provides-member:
 - ["14CoreDataStream8EmployeeC", ""]
 - ["14CoreDataStream8EmployeeC", "fetchRequest"]
+- ["14CoreDataStream8EmployeeC", "age"]
 - ["14CoreDataStream8EmployeeC", "firstName"]
 - ["14CoreDataStream8EmployeeC", "lastName"]
-- ["14CoreDataStream8EmployeeC", "age"]
 - ["14CoreDataStream8EmployeeC", "company"]
 provides-dynamic-lookup:
 - "age"
@@ -137,4 +137,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "a6dea3fd9c05e225861a53a550e235e5"
+interface-hash: "736edd6f5bbfa562589a64b9804cc804"

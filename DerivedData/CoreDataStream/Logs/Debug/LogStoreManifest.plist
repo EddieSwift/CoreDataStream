@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>08B48355-8C1E-4FBA-9B5D-6A06885DF738</key>
+		<key>035F5CDC-5B7B-41E0-87AD-511771E73648</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>08B48355-8C1E-4FBA-9B5D-6A06885DF738.xcactivitylog</string>
+			<string>035F5CDC-5B7B-41E0-87AD-511771E73648.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603902630.14148402</real>
+			<real>603986748.79020405</real>
 			<key>timeStoppedRecording</key>
-			<real>603902658.20499897</real>
+			<real>603986809.01751101</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>08B48355-8C1E-4FBA-9B5D-6A06885DF738</string>
+			<string>035F5CDC-5B7B-41E0-87AD-511771E73648</string>
 		</dict>
-		<key>0D2A3BF3-E1E0-42CB-8831-F3C623A4E412</key>
+		<key>040C044E-878B-4EBB-A369-67D68D24F078</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -49,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>0D2A3BF3-E1E0-42CB-8831-F3C623A4E412.xcactivitylog</string>
+			<string>040C044E-878B-4EBB-A369-67D68D24F078.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,15 +66,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603892585.330917</real>
+			<real>603986233.97337604</real>
 			<key>timeStoppedRecording</key>
-			<real>603892625.75304198</real>
+			<real>603986265.872962</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>0D2A3BF3-E1E0-42CB-8831-F3C623A4E412</string>
+			<string>040C044E-878B-4EBB-A369-67D68D24F078</string>
 		</dict>
-		<key>16FC8663-ADFA-4A8C-994B-2E49ABCD78DE</key>
+		<key>045EACC3-59FD-4911-9622-B60C83F95903</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -83,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>16FC8663-ADFA-4A8C-994B-2E49ABCD78DE.xcactivitylog</string>
+			<string>045EACC3-59FD-4911-9622-B60C83F95903.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,15 +100,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603902603.28838301</real>
+			<real>603989702.86620998</real>
 			<key>timeStoppedRecording</key>
-			<real>603902614.79423296</real>
+			<real>603990093.06863296</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>16FC8663-ADFA-4A8C-994B-2E49ABCD78DE</string>
+			<string>045EACC3-59FD-4911-9622-B60C83F95903</string>
 		</dict>
-		<key>17EB9FD0-925E-4A89-B81A-5FCA220B0657</key>
+		<key>067617E8-7FCB-4311-BE5B-966470737FDF</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -117,7 +117,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>17EB9FD0-925E-4A89-B81A-5FCA220B0657.xcactivitylog</string>
+			<string>067617E8-7FCB-4311-BE5B-966470737FDF.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -134,15 +134,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603902674.97191203</real>
+			<real>603993355.16779804</real>
 			<key>timeStoppedRecording</key>
-			<real>603902767.75966299</real>
+			<real>603993864.64059496</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>17EB9FD0-925E-4A89-B81A-5FCA220B0657</string>
+			<string>067617E8-7FCB-4311-BE5B-966470737FDF</string>
 		</dict>
-		<key>1B82B5C4-E288-4316-952B-75880A51C10C</key>
+		<key>0A52AC29-F68B-4047-850B-D3887F50787E</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -151,7 +151,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>1B82B5C4-E288-4316-952B-75880A51C10C.xcactivitylog</string>
+			<string>0A52AC29-F68B-4047-850B-D3887F50787E.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -168,15 +168,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603891923.61009598</real>
+			<real>603986279.06883299</real>
 			<key>timeStoppedRecording</key>
-			<real>603892298.44214499</real>
+			<real>603986316.13280106</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>1B82B5C4-E288-4316-952B-75880A51C10C</string>
+			<string>0A52AC29-F68B-4047-850B-D3887F50787E</string>
 		</dict>
-		<key>29F840D8-535B-4186-88D6-A1C67BFBC75B</key>
+		<key>0FA6E453-410B-45EC-A43F-D3D8BA46185E</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -185,7 +185,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>29F840D8-535B-4186-88D6-A1C67BFBC75B.xcactivitylog</string>
+			<string>0FA6E453-410B-45EC-A43F-D3D8BA46185E.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -202,15 +202,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603903127.70647001</real>
+			<real>603991743.00401103</real>
 			<key>timeStoppedRecording</key>
-			<real>603903170.65254295</real>
+			<real>603991763.74074101</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>29F840D8-535B-4186-88D6-A1C67BFBC75B</string>
+			<string>0FA6E453-410B-45EC-A43F-D3D8BA46185E</string>
 		</dict>
-		<key>2EADE103-73B8-4AEB-8FFF-EBA914411582</key>
+		<key>15537CE7-8060-4375-B12F-43EE22829D13</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -219,7 +219,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>2EADE103-73B8-4AEB-8FFF-EBA914411582.xcactivitylog</string>
+			<string>15537CE7-8060-4375-B12F-43EE22829D13.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -236,15 +236,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603892298.319502</real>
+			<real>603992343.40341306</real>
 			<key>timeStoppedRecording</key>
-			<real>603892315.15703499</real>
+			<real>603992358.97164702</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>2EADE103-73B8-4AEB-8FFF-EBA914411582</string>
+			<string>15537CE7-8060-4375-B12F-43EE22829D13</string>
 		</dict>
-		<key>3625C26C-0BDD-49ED-B001-DB41B59CDDF3</key>
+		<key>17A5E0E2-EE78-43AE-9CF4-C1C93011F830</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -253,7 +253,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>3625C26C-0BDD-49ED-B001-DB41B59CDDF3.xcactivitylog</string>
+			<string>17A5E0E2-EE78-43AE-9CF4-C1C93011F830.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -270,15 +270,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603886883.64106596</real>
+			<real>603986099.48924303</real>
 			<key>timeStoppedRecording</key>
-			<real>603889464.98381698</real>
+			<real>603986193.99344301</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>3625C26C-0BDD-49ED-B001-DB41B59CDDF3</string>
+			<string>17A5E0E2-EE78-43AE-9CF4-C1C93011F830</string>
 		</dict>
-		<key>3A7F019B-E02B-4250-B6F6-46E8CBE59306</key>
+		<key>1AFE279B-7536-45CA-87E0-D5B36EB6A6F6</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -287,7 +287,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>3A7F019B-E02B-4250-B6F6-46E8CBE59306.xcactivitylog</string>
+			<string>1AFE279B-7536-45CA-87E0-D5B36EB6A6F6.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -304,15 +304,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603903171.434111</real>
+			<real>603991764.38017201</real>
 			<key>timeStoppedRecording</key>
-			<real>603903894.28199899</real>
+			<real>603992022.35929</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>3A7F019B-E02B-4250-B6F6-46E8CBE59306</string>
+			<string>1AFE279B-7536-45CA-87E0-D5B36EB6A6F6</string>
 		</dict>
-		<key>45B7A250-8BAE-490E-B211-1983FC53B6FD</key>
+		<key>2461C855-3076-4CB4-AB0E-46A31B1A87E7</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -321,7 +321,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>45B7A250-8BAE-490E-B211-1983FC53B6FD.xcactivitylog</string>
+			<string>2461C855-3076-4CB4-AB0E-46A31B1A87E7.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -338,15 +338,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603899238.03982604</real>
+			<real>603986489.07951701</real>
 			<key>timeStoppedRecording</key>
-			<real>603899248.53413105</real>
+			<real>603986516.69713199</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>45B7A250-8BAE-490E-B211-1983FC53B6FD</string>
+			<string>2461C855-3076-4CB4-AB0E-46A31B1A87E7</string>
 		</dict>
-		<key>48233122-E2BB-4DA8-B134-5C5911F604EB</key>
+		<key>2A3A92F2-7AC5-48B4-AA03-461113291633</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -355,7 +355,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>48233122-E2BB-4DA8-B134-5C5911F604EB.xcactivitylog</string>
+			<string>2A3A92F2-7AC5-48B4-AA03-461113291633.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -372,15 +372,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603891898.05165195</real>
+			<real>603993341.81898999</real>
 			<key>timeStoppedRecording</key>
-			<real>603891920.69202995</real>
+			<real>603993354.32958698</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>48233122-E2BB-4DA8-B134-5C5911F604EB</string>
+			<string>2A3A92F2-7AC5-48B4-AA03-461113291633</string>
 		</dict>
-		<key>4932C84A-CE1E-4E8E-857A-002DB99BB15D</key>
+		<key>2B9B6AA7-B77D-4D23-B862-7CC7CC6B7775</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -389,7 +389,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>4932C84A-CE1E-4E8E-857A-002DB99BB15D.xcactivitylog</string>
+			<string>2B9B6AA7-B77D-4D23-B862-7CC7CC6B7775.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -406,15 +406,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603892575.24430597</real>
+			<real>603984725.14146495</real>
 			<key>timeStoppedRecording</key>
-			<real>603892584.72170997</real>
+			<real>603984763.00481606</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>4932C84A-CE1E-4E8E-857A-002DB99BB15D</string>
+			<string>2B9B6AA7-B77D-4D23-B862-7CC7CC6B7775</string>
 		</dict>
-		<key>4F5B5186-E10E-4B50-8FB6-D887EDD81E79</key>
+		<key>318559C0-5FB4-4D6F-A354-FB1F451C7770</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -423,7 +423,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>4F5B5186-E10E-4B50-8FB6-D887EDD81E79.xcactivitylog</string>
+			<string>318559C0-5FB4-4D6F-A354-FB1F451C7770.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -440,15 +440,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603889464.85107696</real>
+			<real>603992039.37950504</real>
 			<key>timeStoppedRecording</key>
-			<real>603891721.55352199</real>
+			<real>603992133.71846497</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>4F5B5186-E10E-4B50-8FB6-D887EDD81E79</string>
+			<string>318559C0-5FB4-4D6F-A354-FB1F451C7770</string>
 		</dict>
-		<key>83A57230-8589-4245-933C-BABC07B1F43C</key>
+		<key>33285651-BD95-44C3-A971-1CEB9E13128C</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -457,7 +457,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>83A57230-8589-4245-933C-BABC07B1F43C.xcactivitylog</string>
+			<string>33285651-BD95-44C3-A971-1CEB9E13128C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -474,15 +474,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603892626.35440898</real>
+			<real>603987172.14027703</real>
 			<key>timeStoppedRecording</key>
-			<real>603892880.07543802</real>
+			<real>603987414.95179701</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>83A57230-8589-4245-933C-BABC07B1F43C</string>
+			<string>33285651-BD95-44C3-A971-1CEB9E13128C</string>
 		</dict>
-		<key>86376DCB-9E5F-431F-8AB3-4174D4503F2B</key>
+		<key>37CFADAE-F698-4287-967A-939C4143DD29</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -491,7 +491,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>86376DCB-9E5F-431F-8AB3-4174D4503F2B.xcactivitylog</string>
+			<string>37CFADAE-F698-4287-967A-939C4143DD29.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -508,15 +508,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603891785.05430901</real>
+			<real>603987466.220559</real>
 			<key>timeStoppedRecording</key>
-			<real>603891897.239537</real>
+			<real>603987503.74847305</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>86376DCB-9E5F-431F-8AB3-4174D4503F2B</string>
+			<string>37CFADAE-F698-4287-967A-939C4143DD29</string>
 		</dict>
-		<key>87F4FC62-8629-4189-B229-26D5288F5DA5</key>
+		<key>458EA46A-55C8-4FEA-BAD5-53A925A7AED6</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -525,7 +525,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>87F4FC62-8629-4189-B229-26D5288F5DA5.xcactivitylog</string>
+			<string>458EA46A-55C8-4FEA-BAD5-53A925A7AED6.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -542,15 +542,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603892350.10835099</real>
+			<real>603987503.583233</real>
 			<key>timeStoppedRecording</key>
-			<real>603892445.93862104</real>
+			<real>603987545.55321896</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>87F4FC62-8629-4189-B229-26D5288F5DA5</string>
+			<string>458EA46A-55C8-4FEA-BAD5-53A925A7AED6</string>
 		</dict>
-		<key>8A7B2F42-F293-4371-90F2-9AC0BBE9AB41</key>
+		<key>47743DA6-DCB5-4E2F-AD31-3CC52EE6FBEF</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -559,7 +559,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>8A7B2F42-F293-4371-90F2-9AC0BBE9AB41.xcactivitylog</string>
+			<string>47743DA6-DCB5-4E2F-AD31-3CC52EE6FBEF.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -576,15 +576,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603902412.71820903</real>
+			<real>603990740.80836904</real>
 			<key>timeStoppedRecording</key>
-			<real>603902465.04434502</real>
+			<real>603990839.53567505</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>8A7B2F42-F293-4371-90F2-9AC0BBE9AB41</string>
+			<string>47743DA6-DCB5-4E2F-AD31-3CC52EE6FBEF</string>
 		</dict>
-		<key>AA86887D-0E32-49F1-9E48-0CDF09E944D0</key>
+		<key>5496E319-7C92-421A-BF82-448A4AFC491E</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -593,7 +593,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>AA86887D-0E32-49F1-9E48-0CDF09E944D0.xcactivitylog</string>
+			<string>5496E319-7C92-421A-BF82-448A4AFC491E.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -610,15 +610,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603892526.25913894</real>
+			<real>603989466.26783705</real>
 			<key>timeStoppedRecording</key>
-			<real>603892554.70487595</real>
+			<real>603989519.41318095</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>AA86887D-0E32-49F1-9E48-0CDF09E944D0</string>
+			<string>5496E319-7C92-421A-BF82-448A4AFC491E</string>
 		</dict>
-		<key>AAA779FA-8535-49A8-8339-4992FD5DFFEB</key>
+		<key>58832A36-1776-4F23-8571-34BC040122EC</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -627,7 +627,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>AAA779FA-8535-49A8-8339-4992FD5DFFEB.xcactivitylog</string>
+			<string>58832A36-1776-4F23-8571-34BC040122EC.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -644,15 +644,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603899174.98094404</real>
+			<real>603992139.79593503</real>
 			<key>timeStoppedRecording</key>
-			<real>603899238.19630003</real>
+			<real>603992239.17134702</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>AAA779FA-8535-49A8-8339-4992FD5DFFEB</string>
+			<string>58832A36-1776-4F23-8571-34BC040122EC</string>
 		</dict>
-		<key>B8F2895A-74A6-417F-98BF-962DF2F1DD02</key>
+		<key>59EAB942-8808-4EA1-B944-C2BD1B7CCB04</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -661,7 +661,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>B8F2895A-74A6-417F-98BF-962DF2F1DD02.xcactivitylog</string>
+			<string>59EAB942-8808-4EA1-B944-C2BD1B7CCB04.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -678,15 +678,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603891767.902156</real>
+			<real>603989694.77739704</real>
 			<key>timeStoppedRecording</key>
-			<real>603891785.22309804</real>
+			<real>603989702.98538899</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>B8F2895A-74A6-417F-98BF-962DF2F1DD02</string>
+			<string>59EAB942-8808-4EA1-B944-C2BD1B7CCB04</string>
 		</dict>
-		<key>BA239DD0-DF3F-472C-AED2-73918819ABFE</key>
+		<key>600CDE76-36F8-4883-89F1-2FB06A16EF7A</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -695,7 +695,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>BA239DD0-DF3F-472C-AED2-73918819ABFE.xcactivitylog</string>
+			<string>600CDE76-36F8-4883-89F1-2FB06A16EF7A.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -712,15 +712,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603903950.54911602</real>
+			<real>603992359.82189202</real>
 			<key>timeStoppedRecording</key>
-			<real>603904188.79316103</real>
+			<real>603992367.14703798</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>BA239DD0-DF3F-472C-AED2-73918819ABFE</string>
+			<string>600CDE76-36F8-4883-89F1-2FB06A16EF7A</string>
 		</dict>
-		<key>BC6E0F17-43A5-491C-B56A-F74337D22F12</key>
+		<key>632775BD-A35C-4F4F-A4B0-B769BFB43822</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -729,7 +729,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>BC6E0F17-43A5-491C-B56A-F74337D22F12.xcactivitylog</string>
+			<string>632775BD-A35C-4F4F-A4B0-B769BFB43822.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -746,15 +746,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603892446.58441603</real>
+			<real>603986841.49816203</real>
 			<key>timeStoppedRecording</key>
-			<real>603892525.67355096</real>
+			<real>603986873.39685094</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>BC6E0F17-43A5-491C-B56A-F74337D22F12</string>
+			<string>632775BD-A35C-4F4F-A4B0-B769BFB43822</string>
 		</dict>
-		<key>CDD7F48F-00A3-49DD-B2BE-5147092A02F6</key>
+		<key>66ABC925-E21E-4F26-99B6-E687B66DB594</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -763,7 +763,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>CDD7F48F-00A3-49DD-B2BE-5147092A02F6.xcactivitylog</string>
+			<string>66ABC925-E21E-4F26-99B6-E687B66DB594.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -780,15 +780,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603899249.13678503</real>
+			<real>603986991.23234606</real>
 			<key>timeStoppedRecording</key>
-			<real>603899327.901685</real>
+			<real>603987052.30214095</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>CDD7F48F-00A3-49DD-B2BE-5147092A02F6</string>
+			<string>66ABC925-E21E-4F26-99B6-E687B66DB594</string>
 		</dict>
-		<key>CF62330F-0F9A-47E5-8607-D57C2AE6AAEB</key>
+		<key>6DC1841A-AD76-411D-93F4-FF5563396022</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -797,7 +797,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>CF62330F-0F9A-47E5-8607-D57C2AE6AAEB.xcactivitylog</string>
+			<string>6DC1841A-AD76-411D-93F4-FF5563396022.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -814,15 +814,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603903894.12461996</real>
+			<real>603987420.21810997</real>
 			<key>timeStoppedRecording</key>
-			<real>603903950.67695296</real>
+			<real>603987465.27933896</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>CF62330F-0F9A-47E5-8607-D57C2AE6AAEB</string>
+			<string>6DC1841A-AD76-411D-93F4-FF5563396022</string>
 		</dict>
-		<key>D0DD83FB-B1D0-4C10-816F-6BEB1C61F40F</key>
+		<key>6EDD586D-822F-4E25-8DE7-0CBDE53127D0</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -831,7 +831,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>D0DD83FB-B1D0-4C10-816F-6BEB1C61F40F.xcactivitylog</string>
+			<string>6EDD586D-822F-4E25-8DE7-0CBDE53127D0.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -848,15 +848,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603891723.37163699</real>
+			<real>603991224.45686102</real>
 			<key>timeStoppedRecording</key>
-			<real>603891767.23498702</real>
+			<real>603991450.40842605</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>D0DD83FB-B1D0-4C10-816F-6BEB1C61F40F</string>
+			<string>6EDD586D-822F-4E25-8DE7-0CBDE53127D0</string>
 		</dict>
-		<key>D72C9A4E-EB02-450C-B4F1-6EC3F0396835</key>
+		<key>6F240817-6822-439E-9903-B0EC874AD6FB</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -865,7 +865,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>D72C9A4E-EB02-450C-B4F1-6EC3F0396835.xcactivitylog</string>
+			<string>6F240817-6822-439E-9903-B0EC874AD6FB.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -882,15 +882,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603902614.62893605</real>
+			<real>603992510.33392406</real>
 			<key>timeStoppedRecording</key>
-			<real>603902630.30586505</real>
+			<real>603993340.917418</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>D72C9A4E-EB02-450C-B4F1-6EC3F0396835</string>
+			<string>6F240817-6822-439E-9903-B0EC874AD6FB</string>
 		</dict>
-		<key>D92B6651-75CC-4663-B664-36063DF46FCA</key>
+		<key>7781A602-85FA-46B2-B60B-686795EC1E5D</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -899,7 +899,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>D92B6651-75CC-4663-B664-36063DF46FCA.xcactivitylog</string>
+			<string>7781A602-85FA-46B2-B60B-686795EC1E5D.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -916,15 +916,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603902464.87106395</real>
+			<real>603987546.46763003</real>
 			<key>timeStoppedRecording</key>
-			<real>603902603.43228495</real>
+			<real>603989465.22512197</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>D92B6651-75CC-4663-B664-36063DF46FCA</string>
+			<string>7781A602-85FA-46B2-B60B-686795EC1E5D</string>
 		</dict>
-		<key>DC3DE588-ED0A-48B9-B716-5E6429329310</key>
+		<key>79E83853-15E6-484B-93A4-A68112A3BF36</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -933,7 +933,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>DC3DE588-ED0A-48B9-B716-5E6429329310.xcactivitylog</string>
+			<string>79E83853-15E6-484B-93A4-A68112A3BF36.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -950,15 +950,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603892879.956967</real>
+			<real>603986966.86150098</real>
 			<key>timeStoppedRecording</key>
-			<real>603892897.22754395</real>
+			<real>603986991.38987994</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>DC3DE588-ED0A-48B9-B716-5E6429329310</string>
+			<string>79E83853-15E6-484B-93A4-A68112A3BF36</string>
 		</dict>
-		<key>E72EDCE3-708D-47B6-A9A9-3F177E953F34</key>
+		<key>7E1EB52E-8267-4E21-854E-4783B7F435D5</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -967,7 +967,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>E72EDCE3-708D-47B6-A9A9-3F177E953F34.xcactivitylog</string>
+			<string>7E1EB52E-8267-4E21-854E-4783B7F435D5.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -984,15 +984,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603892555.31418502</real>
+			<real>603989519.25727201</real>
 			<key>timeStoppedRecording</key>
-			<real>603892574.61308396</real>
+			<real>603989693.810184</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>E72EDCE3-708D-47B6-A9A9-3F177E953F34</string>
+			<string>7E1EB52E-8267-4E21-854E-4783B7F435D5</string>
 		</dict>
-		<key>EBF1ABFC-B91B-45B1-B26C-0315FC8EECAB</key>
+		<key>82C0C75A-975E-4C3D-96E2-82EB31DE92DD</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1001,7 +1001,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>EBF1ABFC-B91B-45B1-B26C-0315FC8EECAB.xcactivitylog</string>
+			<string>82C0C75A-975E-4C3D-96E2-82EB31DE92DD.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1018,15 +1018,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603893130.98628402</real>
+			<real>603986056.18652594</real>
 			<key>timeStoppedRecording</key>
-			<real>603899173.50724697</real>
+			<real>603986099.61887896</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>EBF1ABFC-B91B-45B1-B26C-0315FC8EECAB</string>
+			<string>82C0C75A-975E-4C3D-96E2-82EB31DE92DD</string>
 		</dict>
-		<key>EC5D3A0A-4635-41BE-A700-4914BE657C9E</key>
+		<key>854F7617-DEAC-469F-997C-29C7D502B619</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1035,7 +1035,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>EC5D3A0A-4635-41BE-A700-4914BE657C9E.xcactivitylog</string>
+			<string>854F7617-DEAC-469F-997C-29C7D502B619.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1052,15 +1052,15 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603892315.86687899</real>
+			<real>603990094.08353603</real>
 			<key>timeStoppedRecording</key>
-			<real>603892349.43251801</real>
+			<real>603990534.98410904</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>EC5D3A0A-4635-41BE-A700-4914BE657C9E</string>
+			<string>854F7617-DEAC-469F-997C-29C7D502B619</string>
 		</dict>
-		<key>F864518C-274D-4B17-937A-A00CFD884B67</key>
+		<key>905588B0-38E8-4EEF-88E1-3C944A694829</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -1069,7 +1069,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>F864518C-274D-4B17-937A-A00CFD884B67.xcactivitylog</string>
+			<string>905588B0-38E8-4EEF-88E1-3C944A694829.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -1086,13 +1086,591 @@
 			<key>signature</key>
 			<string>Debug CoreDataStream</string>
 			<key>timeStartedRecording</key>
-			<real>603892897.06276202</real>
+			<real>603991627.00325096</real>
 			<key>timeStoppedRecording</key>
-			<real>603893130.29516006</real>
+			<real>603991743.13935995</real>
 			<key>title</key>
 			<string>Debug CoreDataStream</string>
 			<key>uniqueIdentifier</key>
-			<string>F864518C-274D-4B17-937A-A00CFD884B67</string>
+			<string>905588B0-38E8-4EEF-88E1-3C944A694829</string>
+		</dict>
+		<key>937721A9-8AED-4A12-9B1A-19209C118038</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>937721A9-8AED-4A12-9B1A-19209C118038.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataStream project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataStream</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug CoreDataStream</string>
+			<key>timeStartedRecording</key>
+			<real>603987060.51007104</real>
+			<key>timeStoppedRecording</key>
+			<real>603987171.31219101</real>
+			<key>title</key>
+			<string>Debug CoreDataStream</string>
+			<key>uniqueIdentifier</key>
+			<string>937721A9-8AED-4A12-9B1A-19209C118038</string>
+		</dict>
+		<key>960C5642-A6D4-45B9-A85B-13FB0086C64F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>960C5642-A6D4-45B9-A85B-13FB0086C64F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataStream project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataStream</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug CoreDataStream</string>
+			<key>timeStartedRecording</key>
+			<real>603990535.94966698</real>
+			<key>timeStoppedRecording</key>
+			<real>603990739.899212</real>
+			<key>title</key>
+			<string>Debug CoreDataStream</string>
+			<key>uniqueIdentifier</key>
+			<string>960C5642-A6D4-45B9-A85B-13FB0086C64F</string>
+		</dict>
+		<key>973AACAC-FEEE-4F77-83D0-623D29C31BE4</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>973AACAC-FEEE-4F77-83D0-623D29C31BE4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataStream project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataStream</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug CoreDataStream</string>
+			<key>timeStartedRecording</key>
+			<real>603992367.96124303</real>
+			<key>timeStoppedRecording</key>
+			<real>603992509.433743</real>
+			<key>title</key>
+			<string>Debug CoreDataStream</string>
+			<key>uniqueIdentifier</key>
+			<string>973AACAC-FEEE-4F77-83D0-623D29C31BE4</string>
+		</dict>
+		<key>9A71351B-9C77-420D-8047-0972E320BFD6</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>9A71351B-9C77-420D-8047-0972E320BFD6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataStream project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataStream</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug CoreDataStream</string>
+			<key>timeStartedRecording</key>
+			<real>603986517.48545802</real>
+			<key>timeStoppedRecording</key>
+			<real>603986628.08872294</real>
+			<key>title</key>
+			<string>Debug CoreDataStream</string>
+			<key>uniqueIdentifier</key>
+			<string>9A71351B-9C77-420D-8047-0972E320BFD6</string>
+		</dict>
+		<key>9DE63049-7A7B-4124-ACF7-989AE0541E64</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>9DE63049-7A7B-4124-ACF7-989AE0541E64.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataStream project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataStream</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug CoreDataStream</string>
+			<key>timeStartedRecording</key>
+			<real>603984609.56596899</real>
+			<key>timeStoppedRecording</key>
+			<real>603984642.65078199</real>
+			<key>title</key>
+			<string>Debug CoreDataStream</string>
+			<key>uniqueIdentifier</key>
+			<string>9DE63049-7A7B-4124-ACF7-989AE0541E64</string>
+		</dict>
+		<key>9E14D751-C7CA-4894-A44C-C949641E8B6E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>9E14D751-C7CA-4894-A44C-C949641E8B6E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataStream project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataStream</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug CoreDataStream</string>
+			<key>timeStartedRecording</key>
+			<real>603986194.75031698</real>
+			<key>timeStoppedRecording</key>
+			<real>603986226.06112802</real>
+			<key>title</key>
+			<string>Debug CoreDataStream</string>
+			<key>uniqueIdentifier</key>
+			<string>9E14D751-C7CA-4894-A44C-C949641E8B6E</string>
+		</dict>
+		<key>A966582B-2971-40B0-B48F-C63191EA6DFD</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>A966582B-2971-40B0-B48F-C63191EA6DFD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataStream project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataStream</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug CoreDataStream</string>
+			<key>timeStartedRecording</key>
+			<real>603991477.40026295</real>
+			<key>timeStoppedRecording</key>
+			<real>603991586.11731398</real>
+			<key>title</key>
+			<string>Debug CoreDataStream</string>
+			<key>uniqueIdentifier</key>
+			<string>A966582B-2971-40B0-B48F-C63191EA6DFD</string>
+		</dict>
+		<key>B44C0643-8694-4B22-8BD4-C099B6A9DFB5</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B44C0643-8694-4B22-8BD4-C099B6A9DFB5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataStream project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataStream</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug CoreDataStream</string>
+			<key>timeStartedRecording</key>
+			<real>603986641.45011199</real>
+			<key>timeStoppedRecording</key>
+			<real>603986672.60913301</real>
+			<key>title</key>
+			<string>Debug CoreDataStream</string>
+			<key>uniqueIdentifier</key>
+			<string>B44C0643-8694-4B22-8BD4-C099B6A9DFB5</string>
+		</dict>
+		<key>B698148C-BE61-4FF3-832D-D363A3F4FB4D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B698148C-BE61-4FF3-832D-D363A3F4FB4D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataStream project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataStream</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug CoreDataStream</string>
+			<key>timeStartedRecording</key>
+			<real>603986316.18836403</real>
+			<key>timeStoppedRecording</key>
+			<real>603986414.96748698</real>
+			<key>title</key>
+			<string>Debug CoreDataStream</string>
+			<key>uniqueIdentifier</key>
+			<string>B698148C-BE61-4FF3-832D-D363A3F4FB4D</string>
+		</dict>
+		<key>BC004AFA-1F86-4264-B783-B3CE6C097FBF</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>BC004AFA-1F86-4264-B783-B3CE6C097FBF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataStream project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataStream</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug CoreDataStream</string>
+			<key>timeStartedRecording</key>
+			<real>603985982.12261295</real>
+			<key>timeStoppedRecording</key>
+			<real>603986014.00840199</real>
+			<key>title</key>
+			<string>Debug CoreDataStream</string>
+			<key>uniqueIdentifier</key>
+			<string>BC004AFA-1F86-4264-B783-B3CE6C097FBF</string>
+		</dict>
+		<key>C093A7A7-088A-4CD3-A487-D26D90760ABE</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C093A7A7-088A-4CD3-A487-D26D90760ABE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataStream project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataStream</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug CoreDataStream</string>
+			<key>timeStartedRecording</key>
+			<real>603990840.65815306</real>
+			<key>timeStoppedRecording</key>
+			<real>603991175.72174299</real>
+			<key>title</key>
+			<string>Debug CoreDataStream</string>
+			<key>uniqueIdentifier</key>
+			<string>C093A7A7-088A-4CD3-A487-D26D90760ABE</string>
+		</dict>
+		<key>C6C52195-88FE-4D53-B32F-A950CFA5513C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C6C52195-88FE-4D53-B32F-A950CFA5513C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataStream project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataStream</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug CoreDataStream</string>
+			<key>timeStartedRecording</key>
+			<real>603991450.23951006</real>
+			<key>timeStoppedRecording</key>
+			<real>603991474.83900595</real>
+			<key>title</key>
+			<string>Debug CoreDataStream</string>
+			<key>uniqueIdentifier</key>
+			<string>C6C52195-88FE-4D53-B32F-A950CFA5513C</string>
+		</dict>
+		<key>EB6C8E22-E40D-41CB-AD01-93746D11FE9C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>EB6C8E22-E40D-41CB-AD01-93746D11FE9C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataStream project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataStream</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug CoreDataStream</string>
+			<key>timeStartedRecording</key>
+			<real>603987414.794505</real>
+			<key>timeStoppedRecording</key>
+			<real>603987420.38526297</real>
+			<key>title</key>
+			<string>Debug CoreDataStream</string>
+			<key>uniqueIdentifier</key>
+			<string>EB6C8E22-E40D-41CB-AD01-93746D11FE9C</string>
+		</dict>
+		<key>EC562107-FCD5-4A08-9983-42DF6D674690</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>EC562107-FCD5-4A08-9983-42DF6D674690.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataStream project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataStream</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug CoreDataStream</string>
+			<key>timeStartedRecording</key>
+			<real>603986703.72153497</real>
+			<key>timeStoppedRecording</key>
+			<real>603986735.53273404</real>
+			<key>title</key>
+			<string>Debug CoreDataStream</string>
+			<key>uniqueIdentifier</key>
+			<string>EC562107-FCD5-4A08-9983-42DF6D674690</string>
+		</dict>
+		<key>F62E2CB4-B4CF-4A54-9B6D-E1F4688E6D95</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F62E2CB4-B4CF-4A54-9B6D-E1F4688E6D95.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataStream project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataStream</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug CoreDataStream</string>
+			<key>timeStartedRecording</key>
+			<real>603992282.42890501</real>
+			<key>timeStoppedRecording</key>
+			<real>603992342.52090704</real>
+			<key>title</key>
+			<string>Debug CoreDataStream</string>
+			<key>uniqueIdentifier</key>
+			<string>F62E2CB4-B4CF-4A54-9B6D-E1F4688E6D95</string>
+		</dict>
+		<key>FC0FD03E-95EA-4300-97E8-EBF619CA75EB</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>FC0FD03E-95EA-4300-97E8-EBF619CA75EB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataStream project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataStream</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug CoreDataStream</string>
+			<key>timeStartedRecording</key>
+			<real>603986442.523844</real>
+			<key>timeStoppedRecording</key>
+			<real>603986488.26357496</real>
+			<key>title</key>
+			<string>Debug CoreDataStream</string>
+			<key>uniqueIdentifier</key>
+			<string>FC0FD03E-95EA-4300-97E8-EBF619CA75EB</string>
+		</dict>
+		<key>FE9F5997-49B4-4942-B57A-8233C7C2E421</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>FE9F5997-49B4-4942-B57A-8233C7C2E421.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>CoreDataStream project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CoreDataStream</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug CoreDataStream</string>
+			<key>timeStartedRecording</key>
+			<real>603992240.03062904</real>
+			<key>timeStoppedRecording</key>
+			<real>603992280.33562899</real>
+			<key>title</key>
+			<string>Debug CoreDataStream</string>
+			<key>uniqueIdentifier</key>
+			<string>FE9F5997-49B4-4942-B57A-8233C7C2E421</string>
 		</dict>
 	</dict>
 </dict>
