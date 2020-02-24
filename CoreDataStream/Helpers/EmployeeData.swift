@@ -8,8 +8,6 @@
 
 import Foundation
 
-import Foundation
-
 enum EmployeeData {
     
     static let names = ["Tran", "Lenore", "Bud", "Fredda", "Katrice",

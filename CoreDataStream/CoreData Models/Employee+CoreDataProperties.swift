@@ -21,5 +21,4 @@ extension Employee {
     @NSManaged public var firstName: String?
     @NSManaged public var lastName: String?
     @NSManaged public var company: Company?
-
 }

@@ -19,7 +19,6 @@ extension Company {
 
     @NSManaged public var name: String?
     @NSManaged public var employees: NSOrderedSet?
-
 }
 
 // MARK: Generated accessors for employees
@@ -54,5 +53,4 @@ extension Company {
 
     @objc(removeEmployees:)
     @NSManaged public func removeFromEmployees(_ values: NSOrderedSet)
-
 }

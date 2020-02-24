@@ -23,6 +23,7 @@
 		8EC4B2222400086D007E21F3 /* Employee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC4B21E2400086D007E21F3 /* Employee+CoreDataProperties.swift */; };
 		8EC4B22624000E40007E21F3 /* EmployeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC4B22424000E40007E21F3 /* EmployeeTableViewCell.swift */; };
 		8EC4B22724000E40007E21F3 /* EmployeeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EC4B22524000E40007E21F3 /* EmployeeTableViewCell.xib */; };
+		8EF39D892403FD0300206788 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF39D882403FD0300206788 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		8EC4B21E2400086D007E21F3 /* Employee+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8EC4B22424000E40007E21F3 /* EmployeeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTableViewCell.swift; sourceTree = "<group>"; };
 		8EC4B22524000E40007E21F3 /* EmployeeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeTableViewCell.xib; sourceTree = "<group>"; };
+		8EF39D882403FD0300206788 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,17 +78,12 @@
 		8E67B12223FE7E2700FBE2A3 /* CoreDataStream */ = {
 			isa = PBXGroup;
 			children = (
+				8E67B14D23FE8A8400FBE2A3 /* Controllers */,
 				8EC4B22324000E1D007E21F3 /* Views */,
 				8E67B15B23FE986700FBE2A3 /* CoreDataStack */,
-				8E67B14E23FE8CB900FBE2A3 /* Helpers */,
-				8E67B14D23FE8A8400FBE2A3 /* Controllers */,
 				8E67B14223FE7F7F00FBE2A3 /* CoreData Models */,
-				8E67B12323FE7E2700FBE2A3 /* AppDelegate.swift */,
-				8E67B12523FE7E2700FBE2A3 /* SceneDelegate.swift */,
-				8E67B12923FE7E2700FBE2A3 /* Main.storyboard */,
-				8E67B12F23FE7E2900FBE2A3 /* Assets.xcassets */,
-				8E67B13123FE7E2900FBE2A3 /* LaunchScreen.storyboard */,
-				8E67B13423FE7E2900FBE2A3 /* Info.plist */,
+				8E67B14E23FE8CB900FBE2A3 /* Helpers */,
+				8EF39D872403FBEC00206788 /* Environment */,
 			);
 			path = CoreDataStream;
 			sourceTree = "<group>";
@@ -115,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				8E67B15123FE928500FBE2A3 /* EmployeeData.swift */,
+				8EF39D882403FD0300206788 /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -133,8 +131,21 @@
 			children = (
 				8EC4B22424000E40007E21F3 /* EmployeeTableViewCell.swift */,
 				8EC4B22524000E40007E21F3 /* EmployeeTableViewCell.xib */,
+				8E67B12923FE7E2700FBE2A3 /* Main.storyboard */,
+				8E67B13123FE7E2900FBE2A3 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		8EF39D872403FBEC00206788 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				8E67B13423FE7E2900FBE2A3 /* Info.plist */,
+				8E67B12323FE7E2700FBE2A3 /* AppDelegate.swift */,
+				8E67B12523FE7E2700FBE2A3 /* SceneDelegate.swift */,
+				8E67B12F23FE7E2900FBE2A3 /* Assets.xcassets */,
+			);
+			path = Environment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +227,7 @@
 				8EC4B2222400086D007E21F3 /* Employee+CoreDataProperties.swift in Sources */,
 				8EC4B22624000E40007E21F3 /* EmployeeTableViewCell.swift in Sources */,
 				8E67B15D23FE987A00FBE2A3 /* CoreDataStack.swift in Sources */,
+				8EF39D892403FD0300206788 /* Constants.swift in Sources */,
 				8E67B12E23FE7E2700FBE2A3 /* CoreDataStream.xcdatamodeld in Sources */,
 				8EC4B2202400086D007E21F3 /* Company+CoreDataProperties.swift in Sources */,
 				8E67B12623FE7E2700FBE2A3 /* SceneDelegate.swift in Sources */,
@@ -366,7 +378,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z8345E68DL;
-				INFOPLIST_FILE = CoreDataStream/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CoreDataStream/Environment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -384,7 +396,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z8345E68DL;
-				INFOPLIST_FILE = CoreDataStream/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CoreDataStream/Environment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
