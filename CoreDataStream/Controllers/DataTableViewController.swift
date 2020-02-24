@@ -53,8 +53,8 @@ class DataTableViewController: UITableViewController {
         let start = DispatchTime.now()
         
         // check if we had created employees and added to Core Data
-        if currentCompany?.employees?.count ?? 0 < 100_00  {
-            for _ in 0...100_00  {
+        if currentCompany?.employees?.count ?? 0 < 100_0  {
+            for _ in 0...100_0  {
                 let employee = Employee(context: coreDataStack.backgroundContext)
                 employee.firstName = EmployeeData.names.randomElement()
                 employee.lastName = EmployeeData.surnames.randomElement()
@@ -67,6 +67,8 @@ class DataTableViewController: UITableViewController {
                 }
             }
         }
+        
+        coreDataStack.saveContext()
         
         print("amount of employees after creating: \(currentCompany?.employees?.count ?? 0)")
         let end = DispatchTime.now()
@@ -88,6 +90,7 @@ class DataTableViewController: UITableViewController {
 extension DataTableViewController {
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        print("in numberOfRowsInSection: \(currentCompany?.employees?.count ?? 0)")
         return currentCompany?.employees?.count ?? 0
     }
     
