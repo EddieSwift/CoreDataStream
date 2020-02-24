@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
 options: "95eb29f537b7c04c8a772fe5b4cb6a1a"
-build_time: [1582301123, 180367000]
+build_time: [1582541907, 694570000]
 inputs:
   "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/AppDelegate.swift": [1582194985, 119229525]
   "/Users/eduardgalchenko/Documents/Projects/CoreDataStream/CoreDataStream/CoreData Models/Company+CoreDataClass.swift": [1582289132, 756771642]
