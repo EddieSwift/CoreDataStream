@@ -15,74 +15,83 @@ class DataTableViewController: UITableViewController {
     let coreDataService = CoreDataService.shared
     lazy var coreDataStack = CoreDataStack(modelName: "CoreDataStream")
     var currentCompany: Company?
-    var activityIndicator: UIActivityIndicatorView!
+    var allCompanies = [Company]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupActivityIndicator()
-        generateEmployees()
+
+        generateObjects()
+        fetchAllObjects()
         
-        EmployeeTableViewCell.register(in: tableView)
+        ObjectTableViewCell.register(in: tableView)
     }
     
-    // MARK: - Help Methods
+    // MARK: - Generate and Fetch Methods
     
-    private func generateEmployees() {
+    private func generateObjects() {
         
-        let company = "Apple"
-        
-        startAnimation()
-        
-        let companyFetch: NSFetchRequest<Company> = Company.fetchRequest()
-        
-        do {
-            let results = try coreDataStack.backgroundContext.fetch(companyFetch)
-            if results.count > 0 {
-                currentCompany = results.first
-            } else {
-                currentCompany = Company(context: coreDataStack.backgroundContext)
-                currentCompany?.name = company
-                coreDataStack.saveContext()
-            }
-        } catch let error as NSError {
-            print("Fetch error: \(error) description: \(error.userInfo)")
-        }
-        
-        print("current amount of employees: \(currentCompany?.employees?.count ?? 0)")
-        
+        // Set User Defaults
+        let userDefaults = UserDefaults.standard
+        guard userDefaults.object(forKey: "didGenerateObjects") == nil else { return }
+                
         let start = DispatchTime.now()
         
-        // check if we had created employees and added to Core Data
-        if currentCompany?.employees?.count ?? 0 < 100_0  {
-            for _ in 0...100_0  {
-                let employee = Employee(context: coreDataStack.backgroundContext)
-                employee.firstName = EmployeeData.names.randomElement()
-                employee.lastName = EmployeeData.surnames.randomElement()
-                employee.age = Int16(arc4random_uniform(18) + 42)
-                
-                if let company = currentCompany,
-                    let employees = company.employees?.mutableCopy() as? NSMutableOrderedSet {
-                    employees.add(employee)
-                    company.employees = employees
+            for index in 0..<100_000 {
+                currentCompany = Company(context: coreDataStack.backgroundContext)
+                if let companyName = EmployeeData.companies.randomElement() {
+                    currentCompany?.name = companyName + " \(index)"
                 }
             }
-        }
+            
+            coreDataStack.saveContext()
         
-        coreDataStack.saveContext()
+        // Update User Defaults
+        userDefaults.set(true, forKey: "didGenerateObjects")
         
-        print("amount of employees after creating: \(currentCompany?.employees?.count ?? 0)")
         let end = DispatchTime.now()
-        
         
         let nanoTime = end.uptimeNanoseconds - start.uptimeNanoseconds
         let timeInterval = Double(nanoTime) / 1_000_000_000
         
-        print("Time: \(timeInterval) seconds")
-        
-        tableView.reloadData()
-        
-        stopAnimation()
+        print("Time in generateObjects: \(timeInterval) seconds")
     }
+    
+    private func fetchAllObjects() {
+        
+        let start = DispatchTime.now()
+
+        // Creates a fetch request to get all saved companies
+         let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Company")
+         
+         // Creates `asynchronousFetchRequest` with the fetch request
+         let asynchronousFetchRequest = NSAsynchronousFetchRequest(fetchRequest: fetchRequest) { asynchronousFetchResult in
+             
+             // Retrieves an array of companies from the fetch result `finalResult`
+             guard let result = asynchronousFetchResult.finalResult as? [Company] else { return }
+             
+             // Dispatches to use the data in the main queue
+             DispatchQueue.main.async {
+
+                 self.allCompanies = result
+                 print("allCompanies: \(self.allCompanies.count)")
+                 self.tableView.reloadData()
+             }
+         }
+         
+         do {
+             try coreDataStack.backgroundContext.execute(asynchronousFetchRequest)
+         } catch let error {
+             print("NSAsynchronousFetchRequest error: \(error)")
+         }
+        
+        let end = DispatchTime.now()
+        
+        let nanoTime = end.uptimeNanoseconds - start.uptimeNanoseconds
+        let timeInterval = Double(nanoTime) / 1_000_000_000
+        
+        print("Time in fetchAllObjects: \(timeInterval) seconds")
+    }
+    
 }
 
 // MARK: - UITableViewDataSource
@@ -90,20 +99,18 @@ class DataTableViewController: UITableViewController {
 extension DataTableViewController {
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print("in numberOfRowsInSection: \(currentCompany?.employees?.count ?? 0)")
-        return currentCompany?.employees?.count ?? 0
+        return allCompanies.count
     }
     
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> EmployeeTableViewCell {
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> ObjectTableViewCell {
         
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "EmployeeTableViewCell",
-                                                       for: indexPath) as? EmployeeTableViewCell else {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "ObjectTableViewCell",
+                                                       for: indexPath) as? ObjectTableViewCell else {
                                                         fatalError("Cell error")
         }
         
-        guard let employee = currentCompany?.employees?[indexPath.row] as? Employee else { return cell }
-        
-        cell.configure(with: employee, company: currentCompany?.name)
+        let company = allCompanies[indexPath.row]
+        cell.configure(with: company)
         
         return cell
     }
@@ -114,27 +121,4 @@ extension DataTableViewController {
         return Constants.rowHeight
     }
     
-}
-
-// MARK: - SetupUI
-
-extension DataTableViewController {
-    
-    private func setupActivityIndicator() {
-        activityIndicator = UIActivityIndicatorView(style: UIActivityIndicatorView.Style.large)
-        activityIndicator.color = .systemBlue
-        view.addSubview(activityIndicator)
-        activityIndicator.center = view.center
-    }
-    
-    // MARK: - Indicator Methods
-    
-    private func startAnimation() {
-        activityIndicator.startAnimating()
-    }
-    
-    private func stopAnimation() {
-        activityIndicator.stopAnimating()
-        activityIndicator.removeFromSuperview()
-    }
 }

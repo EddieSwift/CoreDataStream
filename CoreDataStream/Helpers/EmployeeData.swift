@@ -10,6 +10,9 @@ import Foundation
 
 enum EmployeeData {
     
+    static let companies = ["Apple", "Amazon", "Dell", "Facebook", "Microsoft",
+                            "HP", "Xerox", "Google", "Telegram", "Oracle"]
+    
     static let names = ["Tran", "Lenore", "Bud", "Fredda", "Katrice",
                         "Clyde", "Hildegard", "Vernell", "Nellie", "Rupert",
                         "Billie", "Tamica", "Crystle", "Kandi", "Caridad",
