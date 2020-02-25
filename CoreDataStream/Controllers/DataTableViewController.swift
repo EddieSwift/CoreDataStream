@@ -14,12 +14,14 @@ class DataTableViewController: UITableViewController {
     // MARK: Properties
     let coreDataService = CoreDataService.shared
     lazy var coreDataStack = CoreDataStack(modelName: "CoreDataStream")
+    var activityIndicator: UIActivityIndicatorView!
     var currentCompany: Company?
     var allCompanies = [Company]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        setupActivityIndicator()
         generateObjects()
         fetchAllObjects()
         
@@ -33,17 +35,17 @@ class DataTableViewController: UITableViewController {
         // Set User Defaults
         let userDefaults = UserDefaults.standard
         guard userDefaults.object(forKey: "didGenerateObjects") == nil else { return }
-                
+        
         let start = DispatchTime.now()
         
-            for index in 0..<100_000 {
-                currentCompany = Company(context: coreDataStack.backgroundContext)
-                if let companyName = EmployeeData.companies.randomElement() {
-                    currentCompany?.name = companyName + " \(index)"
-                }
+        for index in 0..<100_000 {
+            currentCompany = Company(context: coreDataStack.backgroundContext)
+            if let companyName = EmployeeData.companies.randomElement() {
+                currentCompany?.name = companyName + " \(index)"
             }
-            
-            coreDataStack.saveContext()
+        }
+        
+        coreDataStack.saveContext()
         
         // Update User Defaults
         userDefaults.set(true, forKey: "didGenerateObjects")
@@ -59,30 +61,32 @@ class DataTableViewController: UITableViewController {
     private func fetchAllObjects() {
         
         let start = DispatchTime.now()
-
+        
+        startAnimation()
+        
         // Creates a fetch request to get all saved companies
-         let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Company")
-         
-         // Creates `asynchronousFetchRequest` with the fetch request
-         let asynchronousFetchRequest = NSAsynchronousFetchRequest(fetchRequest: fetchRequest) { asynchronousFetchResult in
-             
-             // Retrieves an array of companies from the fetch result `finalResult`
-             guard let result = asynchronousFetchResult.finalResult as? [Company] else { return }
-             
-             // Dispatches to use the data in the main queue
-             DispatchQueue.main.async {
-
-                 self.allCompanies = result
-                 print("allCompanies: \(self.allCompanies.count)")
-                 self.tableView.reloadData()
-             }
-         }
-         
-         do {
-             try coreDataStack.backgroundContext.execute(asynchronousFetchRequest)
-         } catch let error {
-             print("NSAsynchronousFetchRequest error: \(error)")
-         }
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Company")
+        
+        // Creates `asynchronousFetchRequest` with the fetch request
+        let asynchronousFetchRequest = NSAsynchronousFetchRequest(fetchRequest: fetchRequest) { asynchronousFetchResult in
+            
+            // Retrieves an array of companies from the fetch result `finalResult`
+            guard let result = asynchronousFetchResult.finalResult as? [Company] else { return }
+            
+            // Dispatches to use the data in the main queue
+            DispatchQueue.main.async {
+                self.allCompanies = result
+                print("allCompanies: \(self.allCompanies.count)")
+                self.tableView.reloadData()
+                self.stopAnimation()
+            }
+        }
+        
+        do {
+            try coreDataStack.backgroundContext.execute(asynchronousFetchRequest)
+        } catch let error {
+            print("NSAsynchronousFetchRequest error: \(error)")
+        }
         
         let end = DispatchTime.now()
         
@@ -119,6 +123,29 @@ extension DataTableViewController {
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return Constants.rowHeight
+    }
+}
+
+// MARK: - SetupUI
+
+extension DataTableViewController {
+    
+    private func setupActivityIndicator() {
+        activityIndicator = UIActivityIndicatorView(style: UIActivityIndicatorView.Style.large)
+        activityIndicator.color = .systemBlue
+        view.addSubview(activityIndicator)
+        activityIndicator.center = view.center
+    }
+    
+    // MARK: - Indicator Methods
+    
+    private func startAnimation() {
+        activityIndicator.startAnimating()
+    }
+    
+    private func stopAnimation() {
+        activityIndicator.stopAnimating()
+        activityIndicator.removeFromSuperview()
     }
     
 }
