@@ -10,9 +10,7 @@ import CoreData
 import Foundation
 
 struct CoreDataService {
-    
-    static let shared = CoreDataService()
-    
+        
     let persistentContainer: NSPersistentContainer = {
         let container = NSPersistentContainer(name: "CoreDataStream")
         container.loadPersistentStores { (storeDescription, err) in

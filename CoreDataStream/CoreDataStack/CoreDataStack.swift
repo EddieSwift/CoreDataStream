@@ -9,46 +9,70 @@
 import Foundation
 import CoreData
 
-public extension NSManagedObject {
-    
-    convenience init(context: NSManagedObjectContext) {
-        let name = String(describing: type(of: self))
-        let entity = NSEntityDescription.entity(forEntityName: name, in: context)!
-        self.init(entity: entity, insertInto: context)
+protocol CoreDataStackProtocol {
+    func construct(completion: @escaping () -> ())
+    func mainContext() -> NSManagedObjectContext
+    func workerContext() -> NSManagedObjectContext
+    func saveContext(context: NSManagedObjectContext)
+    func asyncWorkerContext(block: @escaping (NSManagedObjectContext?)->())
+}
+
+extension CoreDataStackProtocol {
+
+    func construct(completion: @escaping () -> ()) {
+        completion()
+    }
+
+    func saveContext(context: NSManagedObjectContext) {
+        guard context.hasChanges else { return }
+        if context.hasChanges {
+            do {
+                try context.save()
+            } catch {
+                let nserror = error as NSError
+                fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
+            }
+        }
+    }
+
+    func createPSC() -> NSPersistentStoreCoordinator {
+        let docDir = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.userDomainMask, true).first!
+        let urlString = (docDir as NSString).appendingPathComponent("Company.sqlite")
+        let storeURL = URL(fileURLWithPath: urlString)
+        let bundles = [Bundle(for: Company.self)]
+        guard let model = NSManagedObjectModel.mergedModel(from: bundles) else {
+            fatalError("model not found")
+        }
+        let psc = NSPersistentStoreCoordinator(managedObjectModel: model)
+        try! psc.addPersistentStore(ofType: NSSQLiteStoreType, configurationName: nil, at: storeURL, options: nil)
+        return psc
+    }
+
+    func asyncWorkerContext(block: @escaping (NSManagedObjectContext?)->()) {
+        block(workerContext())
     }
 }
 
-class CoreDataStack {
+class CoreDataStack: CoreDataStackProtocol {
     
-    private let modelName: String
-    
-    lazy var backgroundContext: NSManagedObjectContext = {
-        return self.storeContainer.viewContext
-    }()
-    
-    init(modelName: String) {
-        self.modelName = modelName
+    private var mContext: NSManagedObjectContext!
+    private var pContext: NSManagedObjectContext!
+
+    init() {
+        let psc = createPSC()
+        pContext = NSManagedObjectContext(concurrencyType: .privateQueueConcurrencyType)
+        pContext.persistentStoreCoordinator = psc
+        mContext = NSManagedObjectContext(concurrencyType: .mainQueueConcurrencyType)
+        mContext.parent = pContext
     }
-    
-    private lazy var storeContainer: NSPersistentContainer = {
-        
-        let container = NSPersistentContainer(name: self.modelName)
-        container.loadPersistentStores {
-            (storeDescription, error) in
-            if let error = error as NSError? {
-                print("Unresolved error \(error), \(error.userInfo)")
-            }
-        }
-        return container
-    }()
-    
-    func saveContext () {
-        guard backgroundContext.hasChanges else { return }
-        
-        do {
-            try backgroundContext.save()
-        } catch let error as NSError {
-            print("Unresolved error \(error), \(error.userInfo)")
-        }
+
+    func mainContext() -> NSManagedObjectContext {
+        return mContext
+    }
+
+    func workerContext() -> NSManagedObjectContext {
+        let newWorker = NSManagedObjectContext(concurrencyType: .privateQueueConcurrencyType)
+        newWorker.parent = mContext
+        return newWorker
     }
 }

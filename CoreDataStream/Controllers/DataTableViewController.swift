@@ -12,16 +12,15 @@ import CoreData
 class DataTableViewController: UITableViewController {
     
     // MARK: Properties
-    let coreDataService = CoreDataService.shared
-    lazy var coreDataStack = CoreDataStack(modelName: "CoreDataStream")
+    var coreDataStack = CoreDataStack()
     var activityIndicator: UIActivityIndicatorView!
-    var currentCompany: Company?
     var allCompanies = [Company]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         setupActivityIndicator()
+        
         generateObjects()
         fetchAllObjects()
         
@@ -38,14 +37,22 @@ class DataTableViewController: UITableViewController {
         
         let start = DispatchTime.now()
         
-        for index in 0..<100_000 {
-            currentCompany = Company(context: coreDataStack.backgroundContext)
-            if let companyName = EmployeeData.companies.randomElement() {
-                currentCompany?.name = companyName + " \(index)"
+        
+        coreDataStack.asyncWorkerContext { context in
+            guard let workerContext = context else { return }
+        workerContext.performAndWait {
+                for i in 0..<100_000 {
+                    let company =  Company(context: workerContext)
+                    if let companyName = EmployeeData.companies.randomElement() {
+                        company.name = companyName + " \(i)"
+                    }
+                    
+                    self.coreDataStack.saveContext(context: workerContext)
+                }
+                print("Population finished")
             }
         }
-        
-        coreDataStack.saveContext()
+//        self.coreDataStack.saveContext(context: workerContext)
         
         // Update User Defaults
         userDefaults.set(true, forKey: "didGenerateObjects")
@@ -83,7 +90,7 @@ class DataTableViewController: UITableViewController {
         }
         
         do {
-            try coreDataStack.backgroundContext.execute(asynchronousFetchRequest)
+            try coreDataStack.workerContext().execute(asynchronousFetchRequest)
         } catch let error {
             print("NSAsynchronousFetchRequest error: \(error)")
         }
@@ -95,7 +102,6 @@ class DataTableViewController: UITableViewController {
         
         print("Time in fetchAllObjects: \(timeInterval) seconds")
     }
-    
 }
 
 // MARK: - UITableViewDataSource
