@@ -49,18 +49,6 @@ class CoreDataStack {
         return container
     }()
 
-    //    func saveContext () {
-    //        guard backgroundContext.hasChanges else { return }
-    //        guard managedObjectContext.hasChanges else { return }
-    //
-    //        do {
-    //            try backgroundContext.save()
-    //            try managedObjectContext.save()
-    //        } catch let error as NSError {
-    //            print("Unresolved error \(error), \(error.userInfo)")
-    //        }
-    //    }
-
     func saveContext () {
         if backgroundContext.hasChanges {
             do {
